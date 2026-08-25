@@ -1,0 +1,303 @@
+%YAML 1.2
+---
+name: Avalonia AXAML
+file_extensions:
+  - axaml
+scope: source.axaml
+
+contexts:
+
+  main:
+    - include: comments
+    - include: tags
+
+
+  comments:
+    - match: '<!--'
+      scope: punctuation.definition.comment.begin
+      push:
+        - meta_scope: comment.block.xml
+        - match: '-->'
+          scope: punctuation.definition.comment.end
+          pop: true
+
+
+  tags:
+
+    # Closing tags
+    - match: '(</)([A-Za-z_][\w\.:_-]*)(>)'
+      captures:
+        1: punctuation.definition.tag.begin
+        2: entity.name.tag.avalonia
+        3: punctuation.definition.tag.end
+
+
+    # Opening tags
+    - match: '(<)([A-Za-z_][\w\.:_-]*)'
+      captures:
+        1: punctuation.definition.tag.begin
+        2: entity.name.tag.avalonia
+      push: tag-body
+
+
+  tag-body:
+
+    - match: '/>'
+      scope: punctuation.definition.tag.end
+      pop: true
+
+    - match: '>'
+      scope: punctuation.definition.tag.end
+      pop: true
+
+
+    # Application / windows
+
+    - match: '\b(Application|Window|UserControl)\b'
+      scope: entity.name.tag.window
+
+
+    # Layout
+
+    - match: '\b(Grid|Canvas|DockPanel|StackPanel|WrapPanel|UniformGrid|Panel)\b'
+      scope: entity.name.tag.layout
+
+
+    # Content controls
+
+    - match: '\b(ContentControl|ItemsControl|TemplatedControl|ContentPresenter)\b'
+      scope: entity.name.tag.control
+
+
+    # Buttons and input
+
+    - match: '\b(Button|ToggleButton|RepeatButton|CheckBox|RadioButton)\b'
+      scope: entity.name.tag.control
+
+
+    - match: '\b(TextBlock|TextBox|RichTextBlock|AutoCompleteBox|MaskedTextBox)\b'
+      scope: entity.name.tag.control
+
+
+    # Selection
+
+    - match: '\b(ListBox|ComboBox|TreeView|TreeDataGrid|DataGrid|TabControl)\b'
+      scope: entity.name.tag.control
+
+
+    # Navigation
+
+    - match: '\b(Menu|MenuItem|ContextMenu|Flyout|Popup)\b'
+      scope: entity.name.tag.control
+
+
+    # Media
+
+    - match: '\b(Image|Viewbox|PathIcon|MediaElement)\b'
+      scope: entity.name.tag.control
+
+
+    # Shapes
+
+    - match: '\b(Rectangle|Ellipse|Line|Path|Polygon|Polyline)\b'
+      scope: entity.name.tag.shape
+
+
+    # Resources
+
+    - match: '\b(Resources|Style|Setter|ControlTheme|DataTemplate|ControlTemplate)\b'
+      scope: entity.name.tag.resource
+
+
+    # Brushes
+
+    - match: '\b(SolidColorBrush|LinearGradientBrush|RadialGradientBrush|DrawingBrush|ImageBrush)\b'
+      scope: entity.name.tag.brush
+
+
+    # Animation
+
+    - match: '\b(Transition|Transitions|DoubleTransition|ColorTransition|TransformOperationsTransition|KeyFrame|Storyboard)\b'
+      scope: entity.name.tag.animation
+
+
+    - include: attributes
+
+
+
+  attributes:
+
+
+    # XAML directives
+
+    - match: '\b(x:)(Class|Name|Key|DataType|TypeArguments|FieldModifier)\b'
+      captures:
+        1: entity.other.attribute-name.namespace
+        2: entity.other.attribute-name.directive
+
+
+
+    # Attached properties
+
+    - match: '\b(Grid|Canvas|DockPanel|Panel)\.[A-Za-z][\w]*\b'
+      scope: entity.other.attribute-name.attached
+
+
+
+    # Layout
+
+    - match: '\b(RowDefinitions|ColumnDefinitions|RowDefinition|ColumnDefinition|Width|Height|MinWidth|MaxWidth|MinHeight|MaxHeight|Margin|Padding|Spacing)\b'
+      scope: entity.other.attribute-name.layout
+
+
+
+    # Alignment
+
+    - match: '\b(HorizontalAlignment|VerticalAlignment|HorizontalContentAlignment|VerticalContentAlignment)\b'
+      scope: entity.other.attribute-name.alignment
+
+
+
+    # Appearance
+
+    - match: '\b(Background|Foreground|BorderBrush|BorderThickness|CornerRadius|Opacity)\b'
+      scope: entity.other.attribute-name.appearance
+
+
+
+    # Typography
+
+    - match: '\b(Text|FontSize|FontWeight|FontFamily|FontStyle|TextWrapping|TextAlignment)\b'
+      scope: entity.other.attribute-name.text
+
+
+
+    # Commands
+
+    - match: '\b(Command|CommandParameter)\b'
+      scope: entity.other.attribute-name.command
+
+
+
+    # Data
+
+    - match: '\b(Binding|ItemsSource|SelectedItem|SelectedIndex|DataContext)\b'
+      scope: entity.other.attribute-name.data
+
+
+
+    # State
+
+    - match: '\b(IsVisible|IsEnabled|IsHitTestVisible|IsFocused)\b'
+      scope: entity.other.attribute-name.state
+
+
+
+    # Theme
+
+    - match: '\b(ThemeVariant|RequestedThemeVariant)\b'
+      scope: entity.other.attribute-name.theme
+
+
+
+    # Generic attributes
+
+    - match: '\b[A-Za-z_][\w:-]*(?=\=)'
+      scope: entity.other.attribute-name.xml
+
+
+
+    # Values
+
+    - match: '"'
+      scope: punctuation.definition.string.begin
+      push: string-value
+
+
+
+  string-value:
+
+
+    - match: '"'
+      scope: punctuation.definition.string.end
+      pop: true
+
+
+    - include: markup-extensions
+
+
+    - match: '[^"{]+'
+      scope: string.quoted.double.xml
+
+
+
+  markup-extensions:
+
+
+    # Binding family
+
+    - match: '\{(Binding|CompiledBinding|ReflectionBinding)\b'
+      scope: keyword.control.binding
+      push: binding-body
+
+
+
+    # Resources
+
+    - match: '\{(StaticResource|DynamicResource)\b'
+      scope: keyword.control.resource
+      push: resource-body
+
+
+
+    # Template
+
+    - match: '\{TemplateBinding\b'
+      scope: keyword.control.template
+      push: binding-body
+
+
+
+    # Relative source
+
+    - match: '\{RelativeSource\b'
+      scope: keyword.control.binding
+      push: binding-body
+
+
+
+  binding-body:
+
+
+    - match: '\b(Path|Mode|Source|ElementName|RelativeSource|Converter|ConverterParameter|UpdateSourceTrigger)\b'
+      scope: variable.parameter.binding
+
+
+    - match: '\b(TwoWay|OneWay|OneTime|Default)\b'
+      scope: constant.language.binding-mode
+
+
+    - match: '\$parent'
+      scope: variable.language.parent-binding
+
+
+    - match: '[A-Za-z_][\w\.\[\]-]*'
+      scope: variable.other.binding-path
+
+
+    - match: '\}'
+      scope: punctuation.section.binding.end
+      pop: true
+
+
+
+  resource-body:
+
+
+    - match: '[A-Za-z_][\w\-\.]*'
+      scope: constant.character.resource-key
+
+
+    - match: '\}'
+      scope: punctuation.section.resource.end
+      pop: true

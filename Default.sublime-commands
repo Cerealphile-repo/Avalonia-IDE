@@ -1,0 +1,138 @@
+[
+    {
+        "caption": "Avalonia: Build",
+        "command": "avalonia_build"
+    },
+    {
+        "caption": "Avalonia: Run",
+        "command": "avalonia_run"
+    },
+    {
+        "caption": "Avalonia: Restore",
+        "command": "avalonia_restore"
+    },
+    {
+        "caption": "Avalonia: Clean",
+        "command": "avalonia_clean"
+    },
+    {
+        "caption": "Avalonia: Publish",
+        "command": "avalonia_publish"
+    },
+    {
+        "caption": "Avalonia: Test",
+        "command": "avalonia_test"
+    },
+    {
+        "caption": "Avalonia: Watch",
+        "command": "avalonia_watch"
+    },
+    {
+        "caption": "Avalonia: Stop Running Process",
+        "command": "avalonia_stop"
+    },
+    {
+        "caption": "Avalonia: Show Diagnostics",
+        "command": "avalonia_show_diagnostics"
+    },
+    {
+        "caption": "Avalonia: Project Explorer",
+        "command": "avalonia_explorer"
+    },
+    {
+        "caption": "Avalonia: Next Error",
+        "command": "avalonia_next_error"
+    },
+    {
+        "caption": "Avalonia: Previous Error",
+        "command": "avalonia_previous_error"
+    },
+    {
+        "caption": "Avalonia: Clear Diagnostics",
+        "command": "avalonia_clear_diagnostics"
+    },
+    {
+        "caption": "Avalonia: Go To View",
+        "command": "avalonia_go_to_view"
+    },
+    {
+        "caption": "Avalonia: Go To Code Behind",
+        "command": "avalonia_go_to_code_behind"
+    },
+    {
+        "caption": "Avalonia: Go To ViewModel",
+        "command": "avalonia_go_to_view_model"
+    },
+    {
+        "caption": "Avalonia: Go To Resource",
+        "command": "avalonia_go_to_resource"
+    },
+    {
+        "caption": "Avalonia: Go To Definition",
+        "command": "avalonia_go_to_definition"
+    },
+    {
+        "caption": "Avalonia: Language Status",
+        "command": "avalonia_language_status"
+    },
+    {
+        "caption": "Avalonia: Reindex Workspace",
+        "command": "avalonia_reindex"
+    },
+    {
+        "caption": "Avalonia: Cancel Indexing",
+        "command": "avalonia_cancel_indexing"
+    },
+    {
+        "caption": "Avalonia: Settings",
+        "command": "avalonia_settings"
+    },
+    {
+        "caption": "Avalonia: Binding Diagnostics",
+        "command": "avalonia_binding_diagnostics"
+    },
+    {
+        "caption": "Avalonia: Binding Completion (Explicit Test)",
+        "command": "avalonia_binding_completion"
+    },
+    {
+        "caption": "Avalonia: Resource Scope",
+        "command": "avalonia_resource_scope"
+    },
+    {
+        "caption": "Avalonia: Related Files",
+        "command": "avalonia_related_files"
+    },
+    {
+        "caption": "Avalonia: Preview / Build",
+        "command": "avalonia_preview"
+    },
+    {
+        "caption": "Avalonia: Create View",
+        "command": "avalonia_create_view"
+    },
+    {
+        "caption": "Avalonia: Create Window",
+        "command": "avalonia_create_window"
+    },
+    {
+        "caption": "Avalonia: Create ViewModel",
+        "command": "avalonia_create_view_model"
+    },
+    {
+        "caption": "Avalonia: Create Resource Dictionary",
+        "command": "avalonia_create_resource_dictionary"
+    },
+    {
+        "caption": "Avalonia: Extract Resource",
+        "command": "avalonia_extract_resource"
+    },
+    {
+        "caption": "Avalonia: Extract Style",
+        "command": "avalonia_extract_style"
+    },
+    {
+        "caption": "Avalonia: Convert Attribute to Property Element",
+        "command": "avalonia_convert_property_element"
+    }
+]

@@ -1,0 +1,2098 @@
+[
+  {
+    "Name": "AboutAvaloniaDialog",
+    "Base": "Window"
+  },
+  {
+    "Name": "AcceleratorPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "AccessText",
+    "Base": "TextBlock"
+  },
+  {
+    "Name": "AcrylicPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "AdornerLayer",
+    "Base": "Canvas"
+  },
+  {
+    "Name": "AdornerLayerPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "AlwaysSelectedTestSelectorDisablingFirstContainers",
+    "Base": "SelectingItemsControl"
+  },
+  {
+    "Name": "AlwaysSelectedTestSelectorHidingFirstContainers",
+    "Base": "SelectingItemsControl"
+  },
+  {
+    "Name": "AnimationSpeedPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "AnimationsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "Arc",
+    "Base": "Shape"
+  },
+  {
+    "Name": "AssignBindingControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "AssignBindingTestControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "AsyncLocalMeasureControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "AutoCompleteBox",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "AutoCompleteBoxPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "AutomationPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "AvaloniaCrossControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "AvaloniaFlixAppPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "AvaloniaFlixDetailView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "AvaloniaFlixHomeView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "AvaloniaFlixSearchView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "BackButtonHandlingPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "BackHandlingPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "BitmapCachePage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "Border",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "BorderPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "BrushesPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "Button",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "ButtonPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ButtonSpinner",
+    "Base": "Spinner"
+  },
+  {
+    "Name": "ButtonSpinnerPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ButtonsPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "Calendar",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "CalendarButton",
+    "Base": "Button"
+  },
+  {
+    "Name": "CalendarDatePicker",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "CalendarDatePickerPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "CalendarDayButton",
+    "Base": "Button"
+  },
+  {
+    "Name": "CalendarItem",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "CalendarPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "CancellingPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "Canvas",
+    "Base": "Panel"
+  },
+  {
+    "Name": "CanvasCountingMeasureArrangeCalls",
+    "Base": "Canvas"
+  },
+  {
+    "Name": "CanvasPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "CareCompanionAppPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "Carousel",
+    "Base": "SelectingItemsControl"
+  },
+  {
+    "Name": "CarouselCustomizationPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselDataBindingPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselDemoPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "CarouselGalleryAppPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselGesturesPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselGettingStartedPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselMultiItemPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselPage",
+    "Base": "SelectingMultiPage"
+  },
+  {
+    "Name": "CarouselPageCustomizationPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselPageDataTemplatePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselPageEventsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselPageFirstLookPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselPageGesturePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselPagePerformancePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselPageSelectionPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselPageTransitionsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselTransitionsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CarouselVerticalPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "Cell",
+    "Base": "Border"
+  },
+  {
+    "Name": "CenteredTabPanel",
+    "Base": "Panel"
+  },
+  {
+    "Name": "ChatPageView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CheckBox",
+    "Base": "ToggleButton"
+  },
+  {
+    "Name": "CheckBoxPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ChildControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "ChildFitter",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "Class1",
+    "Base": "Control"
+  },
+  {
+    "Name": "Class2",
+    "Base": "Control"
+  },
+  {
+    "Name": "ClipboardPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ClippingPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ColorPicker",
+    "Base": "ColorView"
+  },
+  {
+    "Name": "ColorPickerPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ColorPreviewer",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "ColorSlider",
+    "Base": "Slider"
+  },
+  {
+    "Name": "ColorSpectrum",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "ColorView",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "ComboBox",
+    "Base": "SelectingItemsControl"
+  },
+  {
+    "Name": "ComboBoxItem",
+    "Base": "ListBoxItem"
+  },
+  {
+    "Name": "ComboBoxPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "CommandBar",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "CommandBarButton",
+    "Base": "Button"
+  },
+  {
+    "Name": "CommandBarCustomizationPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CommandBarDynamicOverflowPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CommandBarEventsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CommandBarFirstLookPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CommandBarKeyboardPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CommandBarLabelPositionPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CommandBarOverflowPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CommandBarPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "CommandBarSeparator",
+    "Base": "Separator"
+  },
+  {
+    "Name": "CommandBarToggleButton",
+    "Base": "ToggleButton"
+  },
+  {
+    "Name": "CommandBarTogglePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CompiledBindingRootMock",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CompositionPage",
+    "Base": "TabbedPage"
+  },
+  {
+    "Name": "ConnectedAnimationDemoPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ConnectedAnimationProxy",
+    "Base": "Border"
+  },
+  {
+    "Name": "ContainerControl",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "ContainerQueryPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ContentControl",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "ContentDemoPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ContentPage",
+    "Base": "Page"
+  },
+  {
+    "Name": "ContentPageCommandBarPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ContentPageCustomizationPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ContentPageEventsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ContentPageFirstLookPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ContentPagePerformancePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ContentPageSafeAreaPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ContentPresenter",
+    "Base": "Control"
+  },
+  {
+    "Name": "ContextFlyoutPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ContextMenu",
+    "Base": "MenuBase"
+  },
+  {
+    "Name": "ContextMenuPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "Control",
+    "Base": "InputElement"
+  },
+  {
+    "Name": "Control1",
+    "Base": "Control"
+  },
+  {
+    "Name": "Control2",
+    "Base": "Control"
+  },
+  {
+    "Name": "Control3",
+    "Base": "Control"
+  },
+  {
+    "Name": "ControlsGalleryAppPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CursorPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "CurvedHeaderHomeScrollView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CurvedHeaderProfileScrollView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CustomAnimatorPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CustomButtonWithParts",
+    "Base": "CustomControlWithParts"
+  },
+  {
+    "Name": "CustomControlWithParts",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "CustomDrawing",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "CustomDrawingExampleControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "CustomHitTestBorder",
+    "Base": "Border"
+  },
+  {
+    "Name": "CustomNavigatingStackPanel",
+    "Base": "StackPanel"
+  },
+  {
+    "Name": "CustomNotificationView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "CustomRenderer",
+    "Base": "Control"
+  },
+  {
+    "Name": "CustomSkiaPage",
+    "Base": "Control"
+  },
+  {
+    "Name": "CustomTextBox",
+    "Base": "TextBox"
+  },
+  {
+    "Name": "D3D11DemoControl",
+    "Base": "DrawingSurfaceDemoBase"
+  },
+  {
+    "Name": "DataGridLikeControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "DataGridLikeControlInheritor",
+    "Base": "DataGridLikeControl"
+  },
+  {
+    "Name": "DataValidationErrors",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "DataValidationPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "DataValidationTestControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "DatePicker",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "DatePickerPresenter",
+    "Base": "PickerPresenterBase"
+  },
+  {
+    "Name": "DateTimePickerPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "DateTimePickerPanel",
+    "Base": "Panel"
+  },
+  {
+    "Name": "DecoratedWindow",
+    "Base": "Window"
+  },
+  {
+    "Name": "Decorator",
+    "Base": "Control"
+  },
+  {
+    "Name": "DerivedThemedControl",
+    "Base": "ThemedControl"
+  },
+  {
+    "Name": "DerivedTreeView",
+    "Base": "TreeView"
+  },
+  {
+    "Name": "DerivedTreeViewItem",
+    "Base": "TreeViewItem"
+  },
+  {
+    "Name": "DerivedTreeViewWithDerivedTreeViewItems",
+    "Base": "TreeView"
+  },
+  {
+    "Name": "DesktopPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DialogsPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "DockPanel",
+    "Base": "Panel"
+  },
+  {
+    "Name": "DragAndDropPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "DragDropPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DrawerDemoPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "DrawerPage",
+    "Base": "Page"
+  },
+  {
+    "Name": "DrawerPageBreakpointPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DrawerPageCompactPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DrawerPageCustomFlyoutPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DrawerPageCustomizationPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DrawerPageEventsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DrawerPageFirstLookPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DrawerPageNavigationPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DrawerPagePerformancePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DrawerPageRtlPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DrawerPageTransitionsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DrawingBrushTransformTest",
+    "Base": "Control"
+  },
+  {
+    "Name": "DrawingPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "DrawnControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "DropDownButton",
+    "Base": "Button"
+  },
+  {
+    "Name": "EcoTrackerAppPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "EcoTrackerCommunityView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "EcoTrackerHabitsView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "EcoTrackerHomeView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "EcoTrackerStatsView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "Ellipse",
+    "Base": "Shape"
+  },
+  {
+    "Name": "EmbedSample",
+    "Base": "NativeControlHost"
+  },
+  {
+    "Name": "EmbeddableControlRoot",
+    "Base": "TopLevel"
+  },
+  {
+    "Name": "EmbeddedView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "EmbeddingPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ErrorCollectingTextBox",
+    "Base": "TextBox"
+  },
+  {
+    "Name": "Expander",
+    "Base": "HeaderedContentControl"
+  },
+  {
+    "Name": "ExpanderPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ExpanderPageView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ExperimentalAcrylicBorder",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "FakeMenu",
+    "Base": "Menu"
+  },
+  {
+    "Name": "FluidNavBar",
+    "Base": "Control"
+  },
+  {
+    "Name": "FlyoutPresenter",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "FlyoutsPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "FocusPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "FormattedTextPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "GesturePage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "GesturePinchRotationPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "GesturePinchZoomPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "GesturePullPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "GestureSwipePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "GesturesPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "GlPageKnobs",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "GlyphRunControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "GlyphRunGeometryControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "GlyphRunPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "GpuDemo",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "Grid",
+    "Base": "Panel"
+  },
+  {
+    "Name": "GridLinesRenderer",
+    "Base": "Control"
+  },
+  {
+    "Name": "GridRow",
+    "Base": "Grid"
+  },
+  {
+    "Name": "GridSplitter",
+    "Base": "Thumb"
+  },
+  {
+    "Name": "GroupBox",
+    "Base": "HeaderedContentControl"
+  },
+  {
+    "Name": "HamburgerMenu",
+    "Base": "TabControl"
+  },
+  {
+    "Name": "HeaderedContentControl",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "HeaderedContentPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "HeaderedItemsControl",
+    "Base": "ItemsControl"
+  },
+  {
+    "Name": "HeaderedSelectingItemsControl",
+    "Base": "SelectingItemsControl"
+  },
+  {
+    "Name": "HitTestingPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "HotKeyedTextBox",
+    "Base": "TextBox"
+  },
+  {
+    "Name": "HyperlinkButton",
+    "Base": "Button"
+  },
+  {
+    "Name": "Image",
+    "Base": "Control"
+  },
+  {
+    "Name": "ImagePage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "InheritanceTest",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "InitializationOrderTracker",
+    "Base": "Control"
+  },
+  {
+    "Name": "InteractiveLineControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "Item",
+    "Base": "Control"
+  },
+  {
+    "Name": "ItemsControl",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "ItemsControlWithContainer",
+    "Base": "ItemsControl"
+  },
+  {
+    "Name": "ItemsPresenter",
+    "Base": "Control"
+  },
+  {
+    "Name": "LAvenirAppPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "LAvenirDishDetailView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "LAvenirMenuView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "LAvenirProfileView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "LAvenirReservationsView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "Label",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "LabelsPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "LayerWrapper",
+    "Base": "Control"
+  },
+  {
+    "Name": "LayoutTestControl",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "LayoutTestRoot",
+    "Base": "TestRoot"
+  },
+  {
+    "Name": "LayoutTransformControl",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "LayoutTransformControlPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "LightDismissOverlayLayer",
+    "Base": "Border"
+  },
+  {
+    "Name": "Line",
+    "Base": "Shape"
+  },
+  {
+    "Name": "LineBoundsDemoControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "LineBoundsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ListBox",
+    "Base": "SelectingItemsControl"
+  },
+  {
+    "Name": "ListBoxHierarchyLine",
+    "Base": "Panel"
+  },
+  {
+    "Name": "ListBoxItem",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "ListBoxPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "MainView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "MainWindow",
+    "Base": "Window"
+  },
+  {
+    "Name": "ManagedFileChooser",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "ManagedFileChooserOverwritePrompt",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "MaskedTextBox",
+    "Base": "TextBox"
+  },
+  {
+    "Name": "MeasureBorder",
+    "Base": "Border"
+  },
+  {
+    "Name": "MeasureTest",
+    "Base": "Control"
+  },
+  {
+    "Name": "Menu",
+    "Base": "MenuBase"
+  },
+  {
+    "Name": "MenuFlyoutPresenter",
+    "Base": "MenuBase"
+  },
+  {
+    "Name": "MenuItem",
+    "Base": "HeaderedSelectingItemsControl"
+  },
+  {
+    "Name": "MenuPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ModernAppPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ModernDiscoverView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ModernMyTripsView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ModernProfileView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ModernSettingsView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "MyButton",
+    "Base": "Button"
+  },
+  {
+    "Name": "MyPanel",
+    "Base": "Panel"
+  },
+  {
+    "Name": "NativeControlHost",
+    "Base": "Control"
+  },
+  {
+    "Name": "NativeEmbedPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "NativeMenuBar",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "NativeMenuBarPresenter",
+    "Base": "Menu"
+  },
+  {
+    "Name": "NativeMenuItemPresenter",
+    "Base": "MenuItem"
+  },
+  {
+    "Name": "NativeTextBox",
+    "Base": "NativeControlHost"
+  },
+  {
+    "Name": "NavigationDemoPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "NavigationPage",
+    "Base": "MultiPage"
+  },
+  {
+    "Name": "NavigationPageAppearancePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageAttachedMethodsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageBackButtonPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageCurvedHeaderPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageEventsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageFirstLookPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageGesturePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageInteractiveHeaderPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageModalPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageModalTransitionsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageMvvmPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPagePassDataPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPagePerformancePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageScrollAwarePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageStackPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageTitlePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageToolbarPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NavigationPageTransitionsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "NonRecyclingItemsControl",
+    "Base": "ItemsControl"
+  },
+  {
+    "Name": "NotificationCard",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "NotificationsPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "NumericUpDown",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "NumericUpDownPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "OffscreenTopLevel",
+    "Base": "TopLevel"
+  },
+  {
+    "Name": "OldDataContextTest",
+    "Base": "Control"
+  },
+  {
+    "Name": "OpenGlLeasePage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "OpenGlPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "OpenGlPageControl",
+    "Base": "OpenGlControlBase"
+  },
+  {
+    "Name": "OverlayLayer",
+    "Base": "Canvas"
+  },
+  {
+    "Name": "OverlayPopupHost",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "PageNavigationHost",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "Panel",
+    "Base": "Control"
+  },
+  {
+    "Name": "Path",
+    "Base": "Shape"
+  },
+  {
+    "Name": "PathIcon",
+    "Base": "IconElement"
+  },
+  {
+    "Name": "PathMeasurementPage",
+    "Base": "Control"
+  },
+  {
+    "Name": "PipsPager",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "PipsPagerCarouselPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PipsPagerCustomButtonThemesPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PipsPagerCustomColorsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PipsPagerCustomTemplatesPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PipsPagerEventsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PipsPagerGettingStartedPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PipsPagerLargeCollectionPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PipsPagerPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "PlatformInfoPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "PlaygroundPageView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PointerCanvas",
+    "Base": "Control"
+  },
+  {
+    "Name": "PointerContactsTab",
+    "Base": "Control"
+  },
+  {
+    "Name": "PointerPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PointersPage",
+    "Base": "TabbedPage"
+  },
+  {
+    "Name": "Polygon",
+    "Base": "Shape"
+  },
+  {
+    "Name": "Polyline",
+    "Base": "Shape"
+  },
+  {
+    "Name": "Popup",
+    "Base": "Control"
+  },
+  {
+    "Name": "PopupContentControl",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "PopupItemsControl",
+    "Base": "ItemsControl"
+  },
+  {
+    "Name": "PopupOverlayLayer",
+    "Base": "Canvas"
+  },
+  {
+    "Name": "PopupRoot",
+    "Base": "WindowBase"
+  },
+  {
+    "Name": "PopupsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PositionedGlyphRunControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "PreviewAdorner",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "ProgressBar",
+    "Base": "RangeBase"
+  },
+  {
+    "Name": "ProgressBarPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "PulseAppPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PulseHomeView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PulseLoginView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PulseProfileView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PulseWorkoutDetailView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "PulseWorkoutsView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "RadioButton",
+    "Base": "ToggleButton"
+  },
+  {
+    "Name": "RadioButtonPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "Rectangle",
+    "Base": "Shape"
+  },
+  {
+    "Name": "RefreshContainer",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "RefreshContainerPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "RefreshVisualizer",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "RelativePanel",
+    "Base": "Panel"
+  },
+  {
+    "Name": "RelativePanelPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "RelativePointTestPrimitivesHelper",
+    "Base": "Control"
+  },
+  {
+    "Name": "RemoteWidget",
+    "Base": "Control"
+  },
+  {
+    "Name": "RenderTargetBitmapPage",
+    "Base": "Control"
+  },
+  {
+    "Name": "RepeatButton",
+    "Base": "Button"
+  },
+  {
+    "Name": "ResizeGripLayer",
+    "Base": "Control"
+  },
+  {
+    "Name": "ResizePattern",
+    "Base": "Control"
+  },
+  {
+    "Name": "ResizePatternPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "RetroGamingAppPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "RetroGamingDetailView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "RetroGamingFavoritesView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "RetroGamingGamesView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "RetroGamingHomeView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "RetroGamingProfileView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "RetroGamingSearchView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ReversibleStackPanel",
+    "Base": "StackPanel"
+  },
+  {
+    "Name": "RootWithItems",
+    "Base": "TestRoot"
+  },
+  {
+    "Name": "SanctuaryMainPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "SanctuaryShowcasePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ScreenPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ScreensPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ScrollBar",
+    "Base": "RangeBase"
+  },
+  {
+    "Name": "ScrollBarPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "ScrollContentPresenter",
+    "Base": "ContentPresenter"
+  },
+  {
+    "Name": "ScrollViewer",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "ScrollViewerPage",
+    "Base": "TabbedPage"
+  },
+  {
+    "Name": "Sector",
+    "Base": "Shape"
+  },
+  {
+    "Name": "SelectableTextBlock",
+    "Base": "TextBlock"
+  },
+  {
+    "Name": "SelectingItemsControl",
+    "Base": "ItemsControl"
+  },
+  {
+    "Name": "SelectionAdorner",
+    "Base": "Control"
+  },
+  {
+    "Name": "Separator",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "ShowWindowTest",
+    "Base": "Window"
+  },
+  {
+    "Name": "SignUpView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "Slider",
+    "Base": "RangeBase"
+  },
+  {
+    "Name": "SliderPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "SourceControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "SplitButton",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "SplitView",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "SplitViewPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "SpringAnimationsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "StackPanel",
+    "Base": "Panel"
+  },
+  {
+    "Name": "Sub",
+    "Base": "Window"
+  },
+  {
+    "Name": "TabControl",
+    "Base": "SelectingItemsControl"
+  },
+  {
+    "Name": "TabControlPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "TabItem",
+    "Base": "HeaderedContentControl"
+  },
+  {
+    "Name": "TabStrip",
+    "Base": "SelectingItemsControl"
+  },
+  {
+    "Name": "TabStripItem",
+    "Base": "ListBoxItem"
+  },
+  {
+    "Name": "TabStripPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "TabbedDemoPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "TabbedPage",
+    "Base": "SelectingMultiPage"
+  },
+  {
+    "Name": "TabbedPageCollectionPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageCustomTabBarPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageCustomizationPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageDataTemplatePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageDisabledTabsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageEventsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageFabPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageFirstLookPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageFluidNavPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageGesturePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageKeyboardPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPagePerformancePage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPagePlacementPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageProgrammaticPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageTransitionsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageWithDrawerPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TabbedPageWithNavigationPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TableView",
+    "Base": "ListBox"
+  },
+  {
+    "Name": "TableViewCell",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "TableViewCellsPresenter",
+    "Base": "Panel"
+  },
+  {
+    "Name": "TableViewColumnHeader",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "TableViewColumnHeadersPresenter",
+    "Base": "Panel"
+  },
+  {
+    "Name": "TableViewPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "TableViewRow",
+    "Base": "ListBoxItem"
+  },
+  {
+    "Name": "TargetClass",
+    "Base": "Control"
+  },
+  {
+    "Name": "TemplatedControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "TemplatedControlWithPopup",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "TestCanvas",
+    "Base": "Canvas"
+  },
+  {
+    "Name": "TestClass",
+    "Base": "Control"
+  },
+  {
+    "Name": "TestClass2",
+    "Base": "Control"
+  },
+  {
+    "Name": "TestContainer",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "TestContent",
+    "Base": "Control"
+  },
+  {
+    "Name": "TestContentControl",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "TestContextMenu",
+    "Base": "ContextMenu"
+  },
+  {
+    "Name": "TestControl",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "TestFocusScope",
+    "Base": "Panel"
+  },
+  {
+    "Name": "TestIntrinsicsControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "TestItemView",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TestLayoutable",
+    "Base": "Control"
+  },
+  {
+    "Name": "TestLogical1",
+    "Base": "TestLogical"
+  },
+  {
+    "Name": "TestLogical2",
+    "Base": "TestLogical"
+  },
+  {
+    "Name": "TestLogical3",
+    "Base": "TestLogical"
+  },
+  {
+    "Name": "TestPanel",
+    "Base": "Panel"
+  },
+  {
+    "Name": "TestRange",
+    "Base": "RangeBase"
+  },
+  {
+    "Name": "TestRenderRoot",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "TestRoot",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "TestScrollable",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "TestSelector",
+    "Base": "SelectingItemsControl"
+  },
+  {
+    "Name": "TestSelectorWithContainers",
+    "Base": "TestSelector"
+  },
+  {
+    "Name": "TestShape",
+    "Base": "Shape"
+  },
+  {
+    "Name": "TestStackPanel",
+    "Base": "StackPanel"
+  },
+  {
+    "Name": "TestTabControl",
+    "Base": "TabControl"
+  },
+  {
+    "Name": "TestTemplatedControl",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "TestTextBlock",
+    "Base": "TextBlock"
+  },
+  {
+    "Name": "TestToggleButton",
+    "Base": "ToggleButton"
+  },
+  {
+    "Name": "TestTopLevel",
+    "Base": "TopLevel"
+  },
+  {
+    "Name": "TestWindow",
+    "Base": "Window"
+  },
+  {
+    "Name": "TestWindowBase",
+    "Base": "WindowBase"
+  },
+  {
+    "Name": "TestableCarouselPage",
+    "Base": "CarouselPage"
+  },
+  {
+    "Name": "TestableContentPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "TestableTabbedPage",
+    "Base": "TabbedPage"
+  },
+  {
+    "Name": "TextBlock",
+    "Base": "Control"
+  },
+  {
+    "Name": "TextBlockPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "TextBox",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "TextBoxPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "TextFormatterPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TextPresenter",
+    "Base": "Control"
+  },
+  {
+    "Name": "TextSelectionHandle",
+    "Base": "Thumb"
+  },
+  {
+    "Name": "TextSelectionHandleCanvas",
+    "Base": "Canvas"
+  },
+  {
+    "Name": "TextSelectorLayer",
+    "Base": "Canvas"
+  },
+  {
+    "Name": "ThemePage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ThemeVariantScope",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "ThemedControl",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "ThemedControl2",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "Thumb",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "TickBar",
+    "Base": "Control"
+  },
+  {
+    "Name": "TimePicker",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "TimePickerPresenter",
+    "Base": "PickerPresenterBase"
+  },
+  {
+    "Name": "ToggleButton",
+    "Base": "Button"
+  },
+  {
+    "Name": "ToggleSplitButton",
+    "Base": "SplitButton"
+  },
+  {
+    "Name": "ToggleSwitch",
+    "Base": "ToggleButton"
+  },
+  {
+    "Name": "ToggleSwitchPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "ToolTip",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "ToolTipPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "TopLevelHost",
+    "Base": "Control"
+  },
+  {
+    "Name": "TopmostWindow",
+    "Base": "Window"
+  },
+  {
+    "Name": "TopmostWindowTest",
+    "Base": "Window"
+  },
+  {
+    "Name": "Track",
+    "Base": "Control"
+  },
+  {
+    "Name": "TrackingPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "Transform3DPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TransitioningContentControl",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "TransitioningContentControlPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "TransitionsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "TrayIconMenuFlyoutPresenter",
+    "Base": "MenuFlyoutPresenter"
+  },
+  {
+    "Name": "TrayPopupRoot",
+    "Base": "Window"
+  },
+  {
+    "Name": "TreeView",
+    "Base": "ItemsControl"
+  },
+  {
+    "Name": "TreeViewItem",
+    "Base": "HeaderedItemsControl"
+  },
+  {
+    "Name": "TreeViewPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "TwoWayBindingTest",
+    "Base": "Control"
+  },
+  {
+    "Name": "UnPositionedGlyphRunControl",
+    "Base": "Control"
+  },
+  {
+    "Name": "UniformGrid",
+    "Base": "Panel"
+  },
+  {
+    "Name": "UniformGridExposeMeasureOverride",
+    "Base": "UniformGrid"
+  },
+  {
+    "Name": "UserControl",
+    "Base": "ContentControl"
+  },
+  {
+    "Name": "ValidatedDirectPropertyClass",
+    "Base": "DataValidationTestControl"
+  },
+  {
+    "Name": "ValidatedStyledPropertyClass",
+    "Base": "DataValidationTestControl"
+  },
+  {
+    "Name": "Viewbox",
+    "Base": "Control"
+  },
+  {
+    "Name": "ViewboxContainer",
+    "Base": "Control"
+  },
+  {
+    "Name": "ViewboxPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "VirtualizingCarouselPanel",
+    "Base": "VirtualizingPanel"
+  },
+  {
+    "Name": "VirtualizingStackPanel",
+    "Base": "VirtualizingPanel"
+  },
+  {
+    "Name": "VirtualizingStackPanelCountingMeasureArrange",
+    "Base": "VirtualizingStackPanel"
+  },
+  {
+    "Name": "VisibilityChangingCommandBarButton",
+    "Base": "CommandBarButton"
+  },
+  {
+    "Name": "VisualLayerManager",
+    "Base": "Decorator"
+  },
+  {
+    "Name": "VulkanDemoControl",
+    "Base": "DrawingSurfaceDemoBase"
+  },
+  {
+    "Name": "Window",
+    "Base": "WindowBase"
+  },
+  {
+    "Name": "Window1",
+    "Base": "Window"
+  },
+  {
+    "Name": "WindowBase",
+    "Base": "TopLevel"
+  },
+  {
+    "Name": "WindowCustomizationsPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "WindowDecorationsPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "WindowNotificationManager",
+    "Base": "TemplatedControl"
+  },
+  {
+    "Name": "WindowPage",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "WrapPanel",
+    "Base": "Panel"
+  },
+  {
+    "Name": "WrapPanelPage",
+    "Base": "ContentPage"
+  },
+  {
+    "Name": "WriteableBitmapPage",
+    "Base": "Control"
+  },
+  {
+    "Name": "XamlIlBugTestsEventHandlerCodeBehind",
+    "Base": "Window"
+  },
+  {
+    "Name": "XamlIlClassWithCustomProperty",
+    "Base": "UserControl"
+  },
+  {
+    "Name": "XamlIlClassWithPrecompiledXaml",
+    "Base": "UserControl"
+  }
+]

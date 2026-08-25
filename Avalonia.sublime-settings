@@ -1,0 +1,21 @@
+{
+    "dotnet_path": "dotnet",
+
+    "build_configuration": "Debug",
+
+    "auto_restore": true,
+
+    "hot_reload": false,
+
+    "diagnostics_on_save": false,
+
+    "indexing_show_status": true,
+
+    "indexing_on_startup": true,
+
+    "workspace_persistence_enabled": true,
+
+    "show_output_panel": true,
+
+    "log_level": "INFO"
+}

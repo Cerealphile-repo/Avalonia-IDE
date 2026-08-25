@@ -1,0 +1,3195 @@
+{
+  "AccessibilityViewProperty": [
+    "Content",
+    "Control",
+    "Default",
+    "Raw"
+  ],
+  "Action": [
+    "ChildIndexChanged",
+    "ChildIndexesReset",
+    "TotalCountChanged"
+  ],
+  "ActivationTrackingMode": [
+    "FocusEvents",
+    "_NET_ACTIVE_WINDOW",
+    "_NET_WM_STATE_FOCUSED"
+  ],
+  "AlignmentX": [
+    "Center",
+    "Left",
+    "Right"
+  ],
+  "AlignmentXProperty": [
+    "Center",
+    "Left",
+    "Right"
+  ],
+  "AlignmentY": [
+    "Bottom",
+    "Center",
+    "Top"
+  ],
+  "AlignmentYProperty": [
+    "Bottom",
+    "Center",
+    "Top"
+  ],
+  "AllowedWindowActions": [
+    "All",
+    "Fullscreen",
+    "Maximize",
+    "Minimize",
+    "None"
+  ],
+  "AlphaFormat": [
+    "Opaque",
+    "Premul",
+    "Unpremul"
+  ],
+  "AlphaPosition": [
+    "Leading",
+    "Trailing"
+  ],
+  "Anchor": [
+    "AllMask",
+    "Bottom",
+    "BottomLeft",
+    "BottomRight",
+    "HorizontalMask",
+    "Left",
+    "None",
+    "Right",
+    "Top",
+    "TopLeft",
+    "TopRight",
+    "VerticalMask"
+  ],
+  "AvaloniaNameGeneratorBehavior": [
+    "InitializeComponent",
+    "OnlyProperties"
+  ],
+  "AvaloniaNameGeneratorClassFieldModifier": [
+    "Internal",
+    "Private",
+    "Protected",
+    "Public"
+  ],
+  "AvaloniaNameGeneratorViewFileNamingStrategy": [
+    "ClassName",
+    "NamespaceAndClassName"
+  ],
+  "Axis": [
+    "Horizontal",
+    "Vertical"
+  ],
+  "BackgroundSizing": [
+    "CenterBorder",
+    "InnerBorderEdge",
+    "OuterBorderEdge"
+  ],
+  "BackgroundSizingProperty": [
+    "CenterBorder",
+    "InnerBorderEdge",
+    "OuterBorderEdge"
+  ],
+  "BackgroundSource": [
+    "Digger",
+    "None"
+  ],
+  "BackgroundSourceProperty": [
+    "Digger",
+    "None"
+  ],
+  "BarLayoutBehaviorProperty": [
+    "Inset",
+    "Overlay"
+  ],
+  "BasePriority": [
+    "Animation",
+    "Inherited",
+    "LocalValue",
+    "Style",
+    "StyleTrigger",
+    "Template",
+    "Unset"
+  ],
+  "BaselineAlignment": [
+    "Baseline",
+    "Bottom",
+    "Center",
+    "Subscript",
+    "Superscript",
+    "TextBottom",
+    "TextTop",
+    "Top"
+  ],
+  "BaselineAlignmentProperty": [
+    "Baseline",
+    "Bottom",
+    "Center",
+    "Subscript",
+    "Superscript",
+    "TextBottom",
+    "TextTop",
+    "Top"
+  ],
+  "BlendMode": [
+    "Color",
+    "ColorBurn",
+    "ColorDodge",
+    "Darken",
+    "Destination",
+    "DestinationAtop",
+    "DestinationIn",
+    "DestinationOut",
+    "DestinationOver",
+    "Difference",
+    "Exclusion",
+    "HardLight",
+    "Hue",
+    "Lighten",
+    "Luminosity",
+    "Multiply",
+    "Overlay",
+    "Plus",
+    "Saturation",
+    "Screen",
+    "SoftLight",
+    "Source",
+    "SourceAtop",
+    "SourceIn",
+    "SourceOut",
+    "SourceOver",
+    "Unspecified",
+    "Xor"
+  ],
+  "BlendModeProperty": [
+    "Color",
+    "ColorBurn",
+    "ColorDodge",
+    "Darken",
+    "Destination",
+    "DestinationAtop",
+    "DestinationIn",
+    "DestinationOut",
+    "DestinationOver",
+    "Difference",
+    "Exclusion",
+    "HardLight",
+    "Hue",
+    "Lighten",
+    "Luminosity",
+    "Multiply",
+    "Overlay",
+    "Plus",
+    "Saturation",
+    "Screen",
+    "SoftLight",
+    "Source",
+    "SourceAtop",
+    "SourceIn",
+    "SourceOut",
+    "SourceOver",
+    "Unspecified",
+    "Xor"
+  ],
+  "Button": [
+    "Left",
+    "Middle",
+    "None",
+    "Right"
+  ],
+  "ButtonSpinnerLocation": [
+    "Left",
+    "Right"
+  ],
+  "ButtonSpinnerLocationProperty": [
+    "Left",
+    "Right"
+  ],
+  "CaptureSource": [
+    "Explicit",
+    "Implicit",
+    "Platform"
+  ],
+  "ClearMode": [
+    "Always",
+    "Auto",
+    "Never"
+  ],
+  "ClickMode": [
+    "Press",
+    "Release"
+  ],
+  "ClickModeProperty": [
+    "Press",
+    "Release"
+  ],
+  "CloseReason": [
+    "ApplicationShutdown",
+    "OSShutdown",
+    "OwnerWindowClosing",
+    "Undefined",
+    "WindowClosing"
+  ],
+  "ClosingBehavior": [
+    "OwnerAndChildWindows",
+    "OwnerWindowOnly"
+  ],
+  "ClosingBehaviorProperty": [
+    "OwnerAndChildWindows",
+    "OwnerWindowOnly"
+  ],
+  "CodePageCoverage": [
+    "Arabic",
+    "Arabic708",
+    "Arabic864",
+    "ChineseSimplified",
+    "ChineseTraditional",
+    "Cyrillic",
+    "Greek",
+    "Greek737",
+    "Hebrew",
+    "Hebrew862",
+    "Ibm869",
+    "IbmCyrillic855",
+    "IbmTurkish857",
+    "JapaneseJis",
+    "KoreanJohab",
+    "KoreanWansung",
+    "Latin1",
+    "Latin2EasternEurope",
+    "Latin2_852",
+    "MacRoman",
+    "Msdos775",
+    "Msdos860",
+    "Msdos861",
+    "Msdos863",
+    "Msdos865",
+    "Msdos866",
+    "None",
+    "Oem",
+    "Symbol",
+    "Thai",
+    "Turkish",
+    "Us437",
+    "Vietnamese",
+    "WeLatin1_850",
+    "WindowsBaltic"
+  ],
+  "ColorComponent": [
+    "Alpha",
+    "Component1",
+    "Component2",
+    "Component3"
+  ],
+  "ColorComponentProperty": [
+    "Alpha",
+    "Component1",
+    "Component2",
+    "Component3"
+  ],
+  "ColorModel": [
+    "Hsva",
+    "Rgba"
+  ],
+  "ColorModelProperty": [
+    "Hsva",
+    "Rgba"
+  ],
+  "ColorSpectrumComponents": [
+    "HueSaturation",
+    "HueValue",
+    "SaturationHue",
+    "SaturationValue",
+    "ValueHue",
+    "ValueSaturation"
+  ],
+  "ColorSpectrumComponentsProperty": [
+    "HueSaturation",
+    "HueValue",
+    "SaturationHue",
+    "SaturationValue",
+    "ValueHue",
+    "ValueSaturation"
+  ],
+  "ColorSpectrumShape": [
+    "Box",
+    "Ring"
+  ],
+  "ColorSpectrumShapeProperty": [
+    "Box",
+    "Ring"
+  ],
+  "CommandModifiers": [
+    "Alt",
+    "Control",
+    "Meta",
+    "None",
+    "Shift"
+  ],
+  "Components": [
+    "HueSaturation",
+    "HueValue",
+    "SaturationHue",
+    "SaturationValue",
+    "ValueHue",
+    "ValueSaturation"
+  ],
+  "ComponentsProperty": [
+    "HueSaturation",
+    "HueValue",
+    "SaturationHue",
+    "SaturationValue",
+    "ValueHue",
+    "ValueSaturation"
+  ],
+  "CompressionLevel": [
+    "Fastest",
+    "NoCompression",
+    "Optimal",
+    "SmallestSize"
+  ],
+  "Connection": [
+    "DRM_MODE_CONNECTED",
+    "DRM_MODE_DISCONNECTED",
+    "DRM_MODE_UNKNOWNCONNECTION"
+  ],
+  "ConnectorType": [
+    "Component",
+    "Composite",
+    "DIN",
+    "DSI",
+    "DVI_A",
+    "DVI_D",
+    "DVI_I",
+    "DisplayPort",
+    "HDMI_A",
+    "HDMI_B",
+    "LVDS",
+    "None",
+    "S_Video",
+    "TV",
+    "VGA",
+    "Virtual",
+    "eDP"
+  ],
+  "ConstraintAdjustment": [
+    "All",
+    "FlipX",
+    "FlipY",
+    "None",
+    "ResizeX",
+    "ResizeY",
+    "SlideX",
+    "SlideY"
+  ],
+  "ContentType": [
+    "Alpha",
+    "Digits",
+    "Email",
+    "Name",
+    "Normal",
+    "Number",
+    "Password",
+    "Pin",
+    "Search",
+    "Social",
+    "Url"
+  ],
+  "ContentTypeProperty": [
+    "Alpha",
+    "Digits",
+    "Email",
+    "Name",
+    "Normal",
+    "Number",
+    "Password",
+    "Pin",
+    "Search",
+    "Social",
+    "Url"
+  ],
+  "ContrastPreference": [
+    "High",
+    "NoPreference"
+  ],
+  "ControlTypeOverrideProperty": [
+    "Button",
+    "Calendar",
+    "CheckBox",
+    "ComboBox",
+    "ComboBoxItem",
+    "Custom",
+    "DataGrid",
+    "DataItem",
+    "Document",
+    "Edit",
+    "Expander",
+    "Group",
+    "Header",
+    "HeaderItem",
+    "Hyperlink",
+    "Image",
+    "List",
+    "ListItem",
+    "Menu",
+    "MenuBar",
+    "MenuItem",
+    "None",
+    "Pane",
+    "ProgressBar",
+    "RadioButton",
+    "ScrollBar",
+    "ScrollViewer",
+    "Separator",
+    "Slider",
+    "Spinner",
+    "SplitButton",
+    "StatusBar",
+    "Tab",
+    "TabItem",
+    "Table",
+    "Text",
+    "Thumb",
+    "TitleBar",
+    "ToolBar",
+    "ToolTip",
+    "Tree",
+    "TreeItem",
+    "Window"
+  ],
+  "Corner": [
+    "BottomLeft",
+    "BottomRight",
+    "None",
+    "TopLeft",
+    "TopRight"
+  ],
+  "CurrentDisplayMode": [
+    "CompactInline",
+    "CompactOverlay",
+    "Inline",
+    "Overlay"
+  ],
+  "CurrentLayout": [
+    "VK_IMAGE_LAYOUT_ATTACHMENT_FEEDBACK_LOOP_OPTIMAL_EXT",
+    "VK_IMAGE_LAYOUT_ATTACHMENT_OPTIMAL",
+    "VK_IMAGE_LAYOUT_ATTACHMENT_OPTIMAL_KHR",
+    "VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL",
+    "VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL",
+    "VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL_KHR",
+    "VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL",
+    "VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL_KHR",
+    "VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL",
+    "VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL_KHR",
+    "VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL",
+    "VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL_KHR",
+    "VK_IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL",
+    "VK_IMAGE_LAYOUT_DEPTH_STENCIL_READ_ONLY_OPTIMAL",
+    "VK_IMAGE_LAYOUT_FRAGMENT_DENSITY_MAP_OPTIMAL_EXT",
+    "VK_IMAGE_LAYOUT_FRAGMENT_SHADING_RATE_ATTACHMENT_OPTIMAL_KHR",
+    "VK_IMAGE_LAYOUT_GENERAL",
+    "VK_IMAGE_LAYOUT_PREINITIALIZED",
+    "VK_IMAGE_LAYOUT_PRESENT_SRC_KHR",
+    "VK_IMAGE_LAYOUT_READ_ONLY_OPTIMAL",
+    "VK_IMAGE_LAYOUT_READ_ONLY_OPTIMAL_KHR",
+    "VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL",
+    "VK_IMAGE_LAYOUT_SHADING_RATE_OPTIMAL_NV",
+    "VK_IMAGE_LAYOUT_SHARED_PRESENT_KHR",
+    "VK_IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL",
+    "VK_IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL_KHR",
+    "VK_IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL",
+    "VK_IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL_KHR",
+    "VK_IMAGE_LAYOUT_TRANSFER_DST_OPTIMAL",
+    "VK_IMAGE_LAYOUT_TRANSFER_SRC_OPTIMAL",
+    "VK_IMAGE_LAYOUT_UNDEFINED",
+    "VK_IMAGE_LAYOUT_VIDEO_DECODE_DPB_KHR",
+    "VK_IMAGE_LAYOUT_VIDEO_DECODE_DST_KHR",
+    "VK_IMAGE_LAYOUT_VIDEO_DECODE_SRC_KHR",
+    "VK_IMAGE_LAYOUT_VIDEO_ENCODE_DPB_KHR",
+    "VK_IMAGE_LAYOUT_VIDEO_ENCODE_DST_KHR",
+    "VK_IMAGE_LAYOUT_VIDEO_ENCODE_SRC_KHR"
+  ],
+  "CurrentOrientation": [
+    "Landscape",
+    "LandscapeFlipped",
+    "None",
+    "Portrait",
+    "PortraitFlipped"
+  ],
+  "DBusType": [
+    "Array",
+    "Bool",
+    "Byte",
+    "DictEntry",
+    "Double",
+    "Int16",
+    "Int32",
+    "Int64",
+    "Invalid",
+    "ObjectPath",
+    "Signature",
+    "String",
+    "Struct",
+    "UInt16",
+    "UInt32",
+    "UInt64",
+    "UnixFd",
+    "Variant"
+  ],
+  "DebugOverlays": [
+    "DirtyRects",
+    "Fps",
+    "LayoutTimeGraph",
+    "None",
+    "RenderTimeGraph"
+  ],
+  "DefaultAlphaFormat": [
+    "Opaque",
+    "Premul",
+    "Unpremul"
+  ],
+  "DefaultBindingMode": [
+    "Default",
+    "OneTime",
+    "OneWay",
+    "OneWayToSource",
+    "TwoWay"
+  ],
+  "DefaultLabelPosition": [
+    "Bottom",
+    "Collapsed",
+    "Right"
+  ],
+  "DefaultLabelPositionProperty": [
+    "Bottom",
+    "Collapsed",
+    "Right"
+  ],
+  "DelayBehavior": [
+    "SetInitialValueAfterDelay",
+    "SetInitialValueBeforeDelay"
+  ],
+  "DemoType": [
+    "D3D11",
+    "Vulkan"
+  ],
+  "DensityStyle": [
+    "Compact",
+    "Normal"
+  ],
+  "DensityStyleProperty": [
+    "Compact",
+    "Normal"
+  ],
+  "Direction": [
+    "Decrease",
+    "Increase"
+  ],
+  "DisplayMode": [
+    "Decade",
+    "Month",
+    "Year"
+  ],
+  "DisplayModeProperty": [
+    "Decade",
+    "Month",
+    "Year"
+  ],
+  "Distribution": [
+    "Ascii",
+    "Bmp",
+    "Supplementary"
+  ],
+  "DockProperty": [
+    "Bottom",
+    "Left",
+    "Right",
+    "Top"
+  ],
+  "DotnetType": [
+    "Array",
+    "Bool",
+    "Byte",
+    "Dictionary",
+    "Double",
+    "Int16",
+    "Int32",
+    "Int64",
+    "ObjectPath",
+    "Signature",
+    "String",
+    "Struct",
+    "UInt16",
+    "UInt32",
+    "UInt64",
+    "UnixFd",
+    "Variant"
+  ],
+  "DownNavigationStrategyProperty": [
+    "Auto",
+    "NavigationDirectionDistance",
+    "Projection",
+    "RectilinearDistance"
+  ],
+  "DpiAwareness": [
+    "PerMonitorDpiAware",
+    "SystemDpiAware",
+    "Unaware"
+  ],
+  "DragEffects": [
+    "Copy",
+    "Link",
+    "Move",
+    "None"
+  ],
+  "DrawerBehavior": [
+    "Auto",
+    "Disabled",
+    "Flyout",
+    "Locked"
+  ],
+  "DrawerBehaviorProperty": [
+    "Auto",
+    "Disabled",
+    "Flyout",
+    "Locked"
+  ],
+  "DrawerLayoutBehavior": [
+    "CompactInline",
+    "CompactOverlay",
+    "Overlay",
+    "Split"
+  ],
+  "DrawerLayoutBehaviorProperty": [
+    "CompactInline",
+    "CompactOverlay",
+    "Overlay",
+    "Split"
+  ],
+  "DrawerPlacement": [
+    "Bottom",
+    "Left",
+    "Right",
+    "Top"
+  ],
+  "DrawerPlacementProperty": [
+    "Bottom",
+    "Left",
+    "Right",
+    "Top"
+  ],
+  "Effects": [
+    "Copy",
+    "Link",
+    "Move",
+    "None"
+  ],
+  "ElementRoleProperty": [
+    "CloseButton",
+    "DecorationsElement",
+    "FullScreenButton",
+    "MaximizeButton",
+    "MinimizeButton",
+    "None",
+    "ResizeE",
+    "ResizeN",
+    "ResizeNE",
+    "ResizeNW",
+    "ResizeS",
+    "ResizeSE",
+    "ResizeSW",
+    "ResizeW",
+    "TitleBar",
+    "User"
+  ],
+  "EnumProperty": [
+    "First",
+    "Second",
+    "Third"
+  ],
+  "ErrorState": [
+    "BindingError",
+    "BindingErrorWithFallback",
+    "DataValidationError",
+    "DataValidationErrorWithFallback",
+    "DoNothing",
+    "HasError",
+    "HasValue",
+    "TypeMask",
+    "UnsetValue",
+    "Value"
+  ],
+  "ErrorType": [
+    "DataValidationError",
+    "Error",
+    "None"
+  ],
+  "Events": [
+    "None",
+    "POLLERR",
+    "POLLHUP",
+    "POLLIN",
+    "POLLNVAL",
+    "POLLOUT",
+    "POLLPRI",
+    "POLLRDHUP"
+  ],
+  "ExpandCollapseState": [
+    "Collapsed",
+    "Expanded",
+    "LeafNode",
+    "PartiallyExpanded"
+  ],
+  "ExpandDirection": [
+    "Down",
+    "Left",
+    "Right",
+    "Up"
+  ],
+  "ExpandDirectionProperty": [
+    "Down",
+    "Left",
+    "Right",
+    "Up"
+  ],
+  "FeedbackTypeProperty": [
+    "Auto",
+    "Haptic",
+    "None",
+    "Sound"
+  ],
+  "FillMode": [
+    "Backward",
+    "Both",
+    "Forward",
+    "None"
+  ],
+  "FillModeProperty": [
+    "Backward",
+    "Both",
+    "Forward",
+    "None"
+  ],
+  "FillRule": [
+    "EvenOdd",
+    "NonZero"
+  ],
+  "FillRuleProperty": [
+    "EvenOdd",
+    "NonZero"
+  ],
+  "Filter": [
+    "BottomLeft",
+    "BottomRight",
+    "None",
+    "TopLeft",
+    "TopRight"
+  ],
+  "FilterMode": [
+    "Contains",
+    "ContainsCaseSensitive",
+    "ContainsOrdinal",
+    "ContainsOrdinalCaseSensitive",
+    "Custom",
+    "Equals",
+    "EqualsCaseSensitive",
+    "EqualsOrdinal",
+    "EqualsOrdinalCaseSensitive",
+    "None",
+    "StartsWith",
+    "StartsWithCaseSensitive",
+    "StartsWithOrdinal",
+    "StartsWithOrdinalCaseSensitive"
+  ],
+  "FilterModeProperty": [
+    "Contains",
+    "ContainsCaseSensitive",
+    "ContainsOrdinal",
+    "ContainsOrdinalCaseSensitive",
+    "Custom",
+    "Equals",
+    "EqualsCaseSensitive",
+    "EqualsOrdinal",
+    "EqualsOrdinalCaseSensitive",
+    "None",
+    "StartsWith",
+    "StartsWithCaseSensitive",
+    "StartsWithOrdinal",
+    "StartsWithOrdinalCaseSensitive"
+  ],
+  "FirstDayOfWeek": [
+    "Friday",
+    "Monday",
+    "Saturday",
+    "Sunday",
+    "Thursday",
+    "Tuesday",
+    "Wednesday"
+  ],
+  "FirstDayOfWeekProperty": [
+    "Friday",
+    "Monday",
+    "Saturday",
+    "Sunday",
+    "Thursday",
+    "Tuesday",
+    "Wednesday"
+  ],
+  "Flags": [
+    "AllowInteractiveAuthorization",
+    "NoAutoStart",
+    "NoReplyExpected",
+    "None"
+  ],
+  "FlowDirection": [
+    "LeftToRight",
+    "RightToLeft"
+  ],
+  "FlowDirectionProperty": [
+    "LeftToRight",
+    "RightToLeft"
+  ],
+  "FontDirectionHint": [
+    "FullyMixed",
+    "LeftToRightWithNeutrals",
+    "OnlyLeftToRight",
+    "OnlyRightToLeft",
+    "RightToLeftWithNeutrals"
+  ],
+  "FontSimulations": [
+    "Bold",
+    "None",
+    "Oblique"
+  ],
+  "FontStretch": [
+    "Condensed",
+    "Expanded",
+    "ExtraCondensed",
+    "ExtraExpanded",
+    "Normal",
+    "SemiCondensed",
+    "SemiExpanded",
+    "UltraCondensed",
+    "UltraExpanded"
+  ],
+  "FontStretchProperty": [
+    "Condensed",
+    "Expanded",
+    "ExtraCondensed",
+    "ExtraExpanded",
+    "Normal",
+    "SemiCondensed",
+    "SemiExpanded",
+    "UltraCondensed",
+    "UltraExpanded"
+  ],
+  "FontStyle": [
+    "Italic",
+    "Normal",
+    "Oblique"
+  ],
+  "FontStyleProperty": [
+    "Italic",
+    "Normal",
+    "Oblique"
+  ],
+  "FontWeight": [
+    "Black",
+    "Bold",
+    "DemiBold",
+    "ExtraBlack",
+    "ExtraBold",
+    "ExtraLight",
+    "Heavy",
+    "Light",
+    "Medium",
+    "Normal",
+    "Regular",
+    "SemiBold",
+    "SemiLight",
+    "Solid",
+    "Thin",
+    "UltraBlack",
+    "UltraBold",
+    "UltraLight"
+  ],
+  "FontWeightProperty": [
+    "Black",
+    "Bold",
+    "DemiBold",
+    "ExtraBlack",
+    "ExtraBold",
+    "ExtraLight",
+    "Heavy",
+    "Light",
+    "Medium",
+    "Normal",
+    "Regular",
+    "SemiBold",
+    "SemiLight",
+    "Solid",
+    "Thin",
+    "UltraBlack",
+    "UltraBold",
+    "UltraLight"
+  ],
+  "Format": [
+    "VK_FORMAT_A1R5G5B5_UNORM_PACK16",
+    "VK_FORMAT_A2B10G10R10_SINT_PACK32",
+    "VK_FORMAT_A2B10G10R10_SNORM_PACK32",
+    "VK_FORMAT_A2B10G10R10_SSCALED_PACK32",
+    "VK_FORMAT_A2B10G10R10_UINT_PACK32",
+    "VK_FORMAT_A2B10G10R10_UNORM_PACK32",
+    "VK_FORMAT_A2B10G10R10_USCALED_PACK32",
+    "VK_FORMAT_A2R10G10B10_SINT_PACK32",
+    "VK_FORMAT_A2R10G10B10_SNORM_PACK32",
+    "VK_FORMAT_A2R10G10B10_SSCALED_PACK32",
+    "VK_FORMAT_A2R10G10B10_UINT_PACK32",
+    "VK_FORMAT_A2R10G10B10_UNORM_PACK32",
+    "VK_FORMAT_A2R10G10B10_USCALED_PACK32",
+    "VK_FORMAT_A4B4G4R4_UNORM_PACK16",
+    "VK_FORMAT_A4B4G4R4_UNORM_PACK16_EXT",
+    "VK_FORMAT_A4R4G4B4_UNORM_PACK16",
+    "VK_FORMAT_A4R4G4B4_UNORM_PACK16_EXT",
+    "VK_FORMAT_A8B8G8R8_SINT_PACK32",
+    "VK_FORMAT_A8B8G8R8_SNORM_PACK32",
+    "VK_FORMAT_A8B8G8R8_SRGB_PACK32",
+    "VK_FORMAT_A8B8G8R8_SSCALED_PACK32",
+    "VK_FORMAT_A8B8G8R8_UINT_PACK32",
+    "VK_FORMAT_A8B8G8R8_UNORM_PACK32",
+    "VK_FORMAT_A8B8G8R8_USCALED_PACK32",
+    "VK_FORMAT_ASTC_10x10_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_10x10_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_10x10_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_10x10_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_10x5_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_10x5_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_10x5_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_10x5_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_10x6_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_10x6_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_10x6_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_10x6_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_10x8_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_10x8_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_10x8_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_10x8_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_12x10_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_12x10_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_12x10_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_12x10_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_12x12_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_12x12_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_12x12_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_12x12_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_4x4_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_4x4_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_4x4_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_4x4_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_5x4_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_5x4_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_5x4_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_5x4_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_5x5_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_5x5_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_5x5_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_5x5_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_6x5_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_6x5_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_6x5_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_6x5_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_6x6_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_6x6_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_6x6_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_6x6_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_8x5_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_8x5_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_8x5_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_8x5_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_8x6_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_8x6_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_8x6_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_8x6_UNORM_BLOCK",
+    "VK_FORMAT_ASTC_8x8_SFLOAT_BLOCK",
+    "VK_FORMAT_ASTC_8x8_SFLOAT_BLOCK_EXT",
+    "VK_FORMAT_ASTC_8x8_SRGB_BLOCK",
+    "VK_FORMAT_ASTC_8x8_UNORM_BLOCK",
+    "VK_FORMAT_B10G11R11_UFLOAT_PACK32",
+    "VK_FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16",
+    "VK_FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16_KHR",
+    "VK_FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16",
+    "VK_FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16_KHR",
+    "VK_FORMAT_B16G16R16G16_422_UNORM",
+    "VK_FORMAT_B16G16R16G16_422_UNORM_KHR",
+    "VK_FORMAT_B4G4R4A4_UNORM_PACK16",
+    "VK_FORMAT_B5G5R5A1_UNORM_PACK16",
+    "VK_FORMAT_B5G6R5_UNORM_PACK16",
+    "VK_FORMAT_B8G8R8A8_SINT",
+    "VK_FORMAT_B8G8R8A8_SNORM",
+    "VK_FORMAT_B8G8R8A8_SRGB",
+    "VK_FORMAT_B8G8R8A8_SSCALED",
+    "VK_FORMAT_B8G8R8A8_UINT",
+    "VK_FORMAT_B8G8R8A8_UNORM",
+    "VK_FORMAT_B8G8R8A8_USCALED",
+    "VK_FORMAT_B8G8R8G8_422_UNORM",
+    "VK_FORMAT_B8G8R8G8_422_UNORM_KHR",
+    "VK_FORMAT_B8G8R8_SINT",
+    "VK_FORMAT_B8G8R8_SNORM",
+    "VK_FORMAT_B8G8R8_SRGB",
+    "VK_FORMAT_B8G8R8_SSCALED",
+    "VK_FORMAT_B8G8R8_UINT",
+    "VK_FORMAT_B8G8R8_UNORM",
+    "VK_FORMAT_B8G8R8_USCALED",
+    "VK_FORMAT_BC1_RGBA_SRGB_BLOCK",
+    "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+    "VK_FORMAT_BC1_RGB_SRGB_BLOCK",
+    "VK_FORMAT_BC1_RGB_UNORM_BLOCK",
+    "VK_FORMAT_BC2_SRGB_BLOCK",
+    "VK_FORMAT_BC2_UNORM_BLOCK",
+    "VK_FORMAT_BC3_SRGB_BLOCK",
+    "VK_FORMAT_BC3_UNORM_BLOCK",
+    "VK_FORMAT_BC4_SNORM_BLOCK",
+    "VK_FORMAT_BC4_UNORM_BLOCK",
+    "VK_FORMAT_BC5_SNORM_BLOCK",
+    "VK_FORMAT_BC5_UNORM_BLOCK",
+    "VK_FORMAT_BC6H_SFLOAT_BLOCK",
+    "VK_FORMAT_BC6H_UFLOAT_BLOCK",
+    "VK_FORMAT_BC7_SRGB_BLOCK",
+    "VK_FORMAT_BC7_UNORM_BLOCK",
+    "VK_FORMAT_D16_UNORM",
+    "VK_FORMAT_D16_UNORM_S8_UINT",
+    "VK_FORMAT_D24_UNORM_S8_UINT",
+    "VK_FORMAT_D32_SFLOAT",
+    "VK_FORMAT_D32_SFLOAT_S8_UINT",
+    "VK_FORMAT_E5B9G9R9_UFLOAT_PACK32",
+    "VK_FORMAT_EAC_R11G11_SNORM_BLOCK",
+    "VK_FORMAT_EAC_R11G11_UNORM_BLOCK",
+    "VK_FORMAT_EAC_R11_SNORM_BLOCK",
+    "VK_FORMAT_EAC_R11_UNORM_BLOCK",
+    "VK_FORMAT_ETC2_R8G8B8A1_SRGB_BLOCK",
+    "VK_FORMAT_ETC2_R8G8B8A1_UNORM_BLOCK",
+    "VK_FORMAT_ETC2_R8G8B8A8_SRGB_BLOCK",
+    "VK_FORMAT_ETC2_R8G8B8A8_UNORM_BLOCK",
+    "VK_FORMAT_ETC2_R8G8B8_SRGB_BLOCK",
+    "VK_FORMAT_ETC2_R8G8B8_UNORM_BLOCK",
+    "VK_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16",
+    "VK_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16_KHR",
+    "VK_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16",
+    "VK_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16_KHR",
+    "VK_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16",
+    "VK_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16_KHR",
+    "VK_FORMAT_G10X6_B10X6R10X6_2PLANE_444_UNORM_3PACK16",
+    "VK_FORMAT_G10X6_B10X6R10X6_2PLANE_444_UNORM_3PACK16_EXT",
+    "VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16",
+    "VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16_KHR",
+    "VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16",
+    "VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16_KHR",
+    "VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16",
+    "VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16_KHR",
+    "VK_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16",
+    "VK_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16_KHR",
+    "VK_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16",
+    "VK_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16_KHR",
+    "VK_FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16",
+    "VK_FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16_KHR",
+    "VK_FORMAT_G12X4_B12X4R12X4_2PLANE_444_UNORM_3PACK16",
+    "VK_FORMAT_G12X4_B12X4R12X4_2PLANE_444_UNORM_3PACK16_EXT",
+    "VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16",
+    "VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16_KHR",
+    "VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16",
+    "VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16_KHR",
+    "VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16",
+    "VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16_KHR",
+    "VK_FORMAT_G16B16G16R16_422_UNORM",
+    "VK_FORMAT_G16B16G16R16_422_UNORM_KHR",
+    "VK_FORMAT_G16_B16R16_2PLANE_420_UNORM",
+    "VK_FORMAT_G16_B16R16_2PLANE_420_UNORM_KHR",
+    "VK_FORMAT_G16_B16R16_2PLANE_422_UNORM",
+    "VK_FORMAT_G16_B16R16_2PLANE_422_UNORM_KHR",
+    "VK_FORMAT_G16_B16R16_2PLANE_444_UNORM",
+    "VK_FORMAT_G16_B16R16_2PLANE_444_UNORM_EXT",
+    "VK_FORMAT_G16_B16_R16_3PLANE_420_UNORM",
+    "VK_FORMAT_G16_B16_R16_3PLANE_420_UNORM_KHR",
+    "VK_FORMAT_G16_B16_R16_3PLANE_422_UNORM",
+    "VK_FORMAT_G16_B16_R16_3PLANE_422_UNORM_KHR",
+    "VK_FORMAT_G16_B16_R16_3PLANE_444_UNORM",
+    "VK_FORMAT_G16_B16_R16_3PLANE_444_UNORM_KHR",
+    "VK_FORMAT_G8B8G8R8_422_UNORM",
+    "VK_FORMAT_G8B8G8R8_422_UNORM_KHR",
+    "VK_FORMAT_G8_B8R8_2PLANE_420_UNORM",
+    "VK_FORMAT_G8_B8R8_2PLANE_420_UNORM_KHR",
+    "VK_FORMAT_G8_B8R8_2PLANE_422_UNORM",
+    "VK_FORMAT_G8_B8R8_2PLANE_422_UNORM_KHR",
+    "VK_FORMAT_G8_B8R8_2PLANE_444_UNORM",
+    "VK_FORMAT_G8_B8R8_2PLANE_444_UNORM_EXT",
+    "VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM",
+    "VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM_KHR",
+    "VK_FORMAT_G8_B8_R8_3PLANE_422_UNORM",
+    "VK_FORMAT_G8_B8_R8_3PLANE_422_UNORM_KHR",
+    "VK_FORMAT_G8_B8_R8_3PLANE_444_UNORM",
+    "VK_FORMAT_G8_B8_R8_3PLANE_444_UNORM_KHR",
+    "VK_FORMAT_PVRTC1_2BPP_SRGB_BLOCK_IMG",
+    "VK_FORMAT_PVRTC1_2BPP_UNORM_BLOCK_IMG",
+    "VK_FORMAT_PVRTC1_4BPP_SRGB_BLOCK_IMG",
+    "VK_FORMAT_PVRTC1_4BPP_UNORM_BLOCK_IMG",
+    "VK_FORMAT_PVRTC2_2BPP_SRGB_BLOCK_IMG",
+    "VK_FORMAT_PVRTC2_2BPP_UNORM_BLOCK_IMG",
+    "VK_FORMAT_PVRTC2_4BPP_SRGB_BLOCK_IMG",
+    "VK_FORMAT_PVRTC2_4BPP_UNORM_BLOCK_IMG",
+    "VK_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16",
+    "VK_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16_KHR",
+    "VK_FORMAT_R10X6G10X6_UNORM_2PACK16",
+    "VK_FORMAT_R10X6G10X6_UNORM_2PACK16_KHR",
+    "VK_FORMAT_R10X6_UNORM_PACK16",
+    "VK_FORMAT_R10X6_UNORM_PACK16_KHR",
+    "VK_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16",
+    "VK_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16_KHR",
+    "VK_FORMAT_R12X4G12X4_UNORM_2PACK16",
+    "VK_FORMAT_R12X4G12X4_UNORM_2PACK16_KHR",
+    "VK_FORMAT_R12X4_UNORM_PACK16",
+    "VK_FORMAT_R12X4_UNORM_PACK16_KHR",
+    "VK_FORMAT_R16G16B16A16_SFLOAT",
+    "VK_FORMAT_R16G16B16A16_SINT",
+    "VK_FORMAT_R16G16B16A16_SNORM",
+    "VK_FORMAT_R16G16B16A16_SSCALED",
+    "VK_FORMAT_R16G16B16A16_UINT",
+    "VK_FORMAT_R16G16B16A16_UNORM",
+    "VK_FORMAT_R16G16B16A16_USCALED",
+    "VK_FORMAT_R16G16B16_SFLOAT",
+    "VK_FORMAT_R16G16B16_SINT",
+    "VK_FORMAT_R16G16B16_SNORM",
+    "VK_FORMAT_R16G16B16_SSCALED",
+    "VK_FORMAT_R16G16B16_UINT",
+    "VK_FORMAT_R16G16B16_UNORM",
+    "VK_FORMAT_R16G16B16_USCALED",
+    "VK_FORMAT_R16G16_S10_5_NV",
+    "VK_FORMAT_R16G16_SFLOAT",
+    "VK_FORMAT_R16G16_SINT",
+    "VK_FORMAT_R16G16_SNORM",
+    "VK_FORMAT_R16G16_SSCALED",
+    "VK_FORMAT_R16G16_UINT",
+    "VK_FORMAT_R16G16_UNORM",
+    "VK_FORMAT_R16G16_USCALED",
+    "VK_FORMAT_R16_SFLOAT",
+    "VK_FORMAT_R16_SINT",
+    "VK_FORMAT_R16_SNORM",
+    "VK_FORMAT_R16_SSCALED",
+    "VK_FORMAT_R16_UINT",
+    "VK_FORMAT_R16_UNORM",
+    "VK_FORMAT_R16_USCALED",
+    "VK_FORMAT_R32G32B32A32_SFLOAT",
+    "VK_FORMAT_R32G32B32A32_SINT",
+    "VK_FORMAT_R32G32B32A32_UINT",
+    "VK_FORMAT_R32G32B32_SFLOAT",
+    "VK_FORMAT_R32G32B32_SINT",
+    "VK_FORMAT_R32G32B32_UINT",
+    "VK_FORMAT_R32G32_SFLOAT",
+    "VK_FORMAT_R32G32_SINT",
+    "VK_FORMAT_R32G32_UINT",
+    "VK_FORMAT_R32_SFLOAT",
+    "VK_FORMAT_R32_SINT",
+    "VK_FORMAT_R32_UINT",
+    "VK_FORMAT_R4G4B4A4_UNORM_PACK16",
+    "VK_FORMAT_R4G4_UNORM_PACK8",
+    "VK_FORMAT_R5G5B5A1_UNORM_PACK16",
+    "VK_FORMAT_R5G6B5_UNORM_PACK16",
+    "VK_FORMAT_R64G64B64A64_SFLOAT",
+    "VK_FORMAT_R64G64B64A64_SINT",
+    "VK_FORMAT_R64G64B64A64_UINT",
+    "VK_FORMAT_R64G64B64_SFLOAT",
+    "VK_FORMAT_R64G64B64_SINT",
+    "VK_FORMAT_R64G64B64_UINT",
+    "VK_FORMAT_R64G64_SFLOAT",
+    "VK_FORMAT_R64G64_SINT",
+    "VK_FORMAT_R64G64_UINT",
+    "VK_FORMAT_R64_SFLOAT",
+    "VK_FORMAT_R64_SINT",
+    "VK_FORMAT_R64_UINT",
+    "VK_FORMAT_R8G8B8A8_SINT",
+    "VK_FORMAT_R8G8B8A8_SNORM",
+    "VK_FORMAT_R8G8B8A8_SRGB",
+    "VK_FORMAT_R8G8B8A8_SSCALED",
+    "VK_FORMAT_R8G8B8A8_UINT",
+    "VK_FORMAT_R8G8B8A8_UNORM",
+    "VK_FORMAT_R8G8B8A8_USCALED",
+    "VK_FORMAT_R8G8B8_SINT",
+    "VK_FORMAT_R8G8B8_SNORM",
+    "VK_FORMAT_R8G8B8_SRGB",
+    "VK_FORMAT_R8G8B8_SSCALED",
+    "VK_FORMAT_R8G8B8_UINT",
+    "VK_FORMAT_R8G8B8_UNORM",
+    "VK_FORMAT_R8G8B8_USCALED",
+    "VK_FORMAT_R8G8_SINT",
+    "VK_FORMAT_R8G8_SNORM",
+    "VK_FORMAT_R8G8_SRGB",
+    "VK_FORMAT_R8G8_SSCALED",
+    "VK_FORMAT_R8G8_UINT",
+    "VK_FORMAT_R8G8_UNORM",
+    "VK_FORMAT_R8G8_USCALED",
+    "VK_FORMAT_R8_SINT",
+    "VK_FORMAT_R8_SNORM",
+    "VK_FORMAT_R8_SRGB",
+    "VK_FORMAT_R8_SSCALED",
+    "VK_FORMAT_R8_UINT",
+    "VK_FORMAT_R8_UNORM",
+    "VK_FORMAT_R8_USCALED",
+    "VK_FORMAT_S8_UINT",
+    "VK_FORMAT_UNDEFINED",
+    "VK_FORMAT_X8_D24_UNORM_PACK32"
+  ],
+  "FramePriority": [
+    "Animation",
+    "AnimationTemplatedParentTheme",
+    "AnimationTheme",
+    "Style",
+    "StyleTemplatedParentTheme",
+    "StyleTheme",
+    "StyleTrigger",
+    "StyleTriggerTemplatedParentTheme",
+    "StyleTriggerTheme",
+    "Template",
+    "TemplateTemplatedParentTheme",
+    "TemplateTheme"
+  ],
+  "GeneratedMethodsVisibility": [
+    "Assembly",
+    "Private",
+    "Public"
+  ],
+  "GeometryCombineMode": [
+    "Exclude",
+    "Intersect",
+    "Union",
+    "Xor"
+  ],
+  "GeometryCombineModeProperty": [
+    "Exclude",
+    "Intersect",
+    "Union",
+    "Xor"
+  ],
+  "GlyphDataFormat": [
+    "Current"
+  ],
+  "Gravity": [
+    "Bottom",
+    "BottomLeft",
+    "BottomRight",
+    "Left",
+    "None",
+    "Right",
+    "Top",
+    "TopLeft",
+    "TopRight"
+  ],
+  "HexInputAlphaPosition": [
+    "Leading",
+    "Trailing"
+  ],
+  "HexInputAlphaPositionProperty": [
+    "Leading",
+    "Trailing"
+  ],
+  "HoldingState": [
+    "Canceled",
+    "Completed",
+    "Started"
+  ],
+  "HorizontalAlignment": [
+    "Center",
+    "Left",
+    "Right",
+    "Stretch"
+  ],
+  "HorizontalAlignmentProperty": [
+    "Center",
+    "Left",
+    "Right",
+    "Stretch"
+  ],
+  "HorizontalContentAlignment": [
+    "Center",
+    "Left",
+    "Right",
+    "Stretch"
+  ],
+  "HorizontalContentAlignmentProperty": [
+    "Center",
+    "Left",
+    "Right",
+    "Stretch"
+  ],
+  "HorizontalScrollBarVisibility": [
+    "Auto",
+    "Disabled",
+    "Hidden",
+    "Visible"
+  ],
+  "HorizontalScrollBarVisibilityProperty": [
+    "Auto",
+    "Disabled",
+    "Hidden",
+    "Visible"
+  ],
+  "HorizontalScrollVisibility": [
+    "Auto",
+    "Disabled",
+    "Hidden",
+    "Visible"
+  ],
+  "HorizontalSnapPointsAlignment": [
+    "Center",
+    "Far",
+    "Near"
+  ],
+  "HorizontalSnapPointsAlignmentProperty": [
+    "Center",
+    "Far",
+    "Near"
+  ],
+  "HorizontalSnapPointsType": [
+    "Mandatory",
+    "MandatorySingle",
+    "None"
+  ],
+  "HorizontalSnapPointsTypeProperty": [
+    "Mandatory",
+    "MandatorySingle",
+    "None"
+  ],
+  "IndexToLocFormat": [
+    "Long",
+    "Short"
+  ],
+  "InitialPressMouseButton": [
+    "Left",
+    "Middle",
+    "None",
+    "Right",
+    "XButton1",
+    "XButton2"
+  ],
+  "InputModifiers": [
+    "Alt",
+    "Control",
+    "KeyboardMask",
+    "LeftMouseButton",
+    "Meta",
+    "MiddleMouseButton",
+    "None",
+    "PenBarrelButton",
+    "PenEraser",
+    "PenInverted",
+    "RightMouseButton",
+    "Shift",
+    "XButton1MouseButton",
+    "XButton2MouseButton"
+  ],
+  "InputPaneState": [
+    "Closed",
+    "Open"
+  ],
+  "IsOffscreenBehaviorProperty": [
+    "Default",
+    "FromClip",
+    "Offscreen",
+    "Onscreen"
+  ],
+  "IsolationLevel": [
+    "PerAssembly",
+    "PerTest"
+  ],
+  "ItemType": [
+    "File",
+    "Folder",
+    "Volume"
+  ],
+  "ItemsAlignment": [
+    "Center",
+    "End",
+    "Justify",
+    "Start",
+    "Stretch",
+    "StretchAll"
+  ],
+  "ItemsAlignmentProperty": [
+    "Center",
+    "End",
+    "Justify",
+    "Start",
+    "Stretch",
+    "StretchAll"
+  ],
+  "IterationBehavior": [
+    "Count",
+    "Forever"
+  ],
+  "Key": [
+    "A",
+    "AbntC1",
+    "AbntC2",
+    "Add",
+    "Apps",
+    "Attn",
+    "B",
+    "Back",
+    "BrowserBack",
+    "BrowserFavorites",
+    "BrowserForward",
+    "BrowserHome",
+    "BrowserRefresh",
+    "BrowserSearch",
+    "BrowserStop",
+    "C",
+    "Cancel",
+    "Capital",
+    "CapsLock",
+    "Clear",
+    "CrSel",
+    "D",
+    "D0",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D9",
+    "DbeAlphanumeric",
+    "DbeCodeInput",
+    "DbeDbcsChar",
+    "DbeDetermineString",
+    "DbeEnterDialogConversionMode",
+    "DbeEnterImeConfigureMode",
+    "DbeEnterWordRegisterMode",
+    "DbeFlushString",
+    "DbeHiragana",
+    "DbeKatakana",
+    "DbeNoCodeInput",
+    "DbeNoRoman",
+    "DbeRoman",
+    "DbeSbcsChar",
+    "DeadCharProcessed",
+    "Decimal",
+    "Delete",
+    "Divide",
+    "Down",
+    "E",
+    "End",
+    "Enter",
+    "EraseEof",
+    "Escape",
+    "ExSel",
+    "Execute",
+    "F",
+    "F1",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F2",
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    "FinalMode",
+    "FnDownArrow",
+    "FnLeftArrow",
+    "FnRightArrow",
+    "FnUpArrow",
+    "G",
+    "H",
+    "HangulMode",
+    "HanjaMode",
+    "Help",
+    "Home",
+    "I",
+    "ImeAccept",
+    "ImeConvert",
+    "ImeModeChange",
+    "ImeNonConvert",
+    "ImeProcessed",
+    "Insert",
+    "J",
+    "JunjaMode",
+    "K",
+    "KanaMode",
+    "KanjiMode",
+    "L",
+    "LWin",
+    "LaunchApplication1",
+    "LaunchApplication2",
+    "LaunchMail",
+    "Left",
+    "LeftAlt",
+    "LeftCtrl",
+    "LeftShift",
+    "LineFeed",
+    "M",
+    "MediaBlue",
+    "MediaChannelList",
+    "MediaChannelLower",
+    "MediaChannelRaise",
+    "MediaGreen",
+    "MediaHome",
+    "MediaInfo",
+    "MediaMenu",
+    "MediaMore",
+    "MediaNextTrack",
+    "MediaOption",
+    "MediaPlayPause",
+    "MediaPreviousChannel",
+    "MediaPreviousTrack",
+    "MediaRecord",
+    "MediaRed",
+    "MediaSearch",
+    "MediaStop",
+    "MediaSubtitle",
+    "MediaTvGuide",
+    "MediaYellow",
+    "Multiply",
+    "N",
+    "Next",
+    "NoName",
+    "None",
+    "NumLock",
+    "NumPad0",
+    "NumPad1",
+    "NumPad2",
+    "NumPad3",
+    "NumPad4",
+    "NumPad5",
+    "NumPad6",
+    "NumPad7",
+    "NumPad8",
+    "NumPad9",
+    "O",
+    "Oem1",
+    "Oem102",
+    "Oem2",
+    "Oem3",
+    "Oem4",
+    "Oem5",
+    "Oem6",
+    "Oem7",
+    "Oem8",
+    "OemAttn",
+    "OemAuto",
+    "OemBackTab",
+    "OemBackslash",
+    "OemClear",
+    "OemCloseBrackets",
+    "OemComma",
+    "OemCopy",
+    "OemEnlw",
+    "OemFinish",
+    "OemMinus",
+    "OemOpenBrackets",
+    "OemPeriod",
+    "OemPipe",
+    "OemPlus",
+    "OemQuestion",
+    "OemQuotes",
+    "OemSemicolon",
+    "OemTilde",
+    "P",
+    "Pa1",
+    "PageDown",
+    "PageUp",
+    "Pause",
+    "Play",
+    "Print",
+    "PrintScreen",
+    "Prior",
+    "Q",
+    "R",
+    "RWin",
+    "Return",
+    "Right",
+    "RightAlt",
+    "RightCtrl",
+    "RightShift",
+    "S",
+    "Scroll",
+    "Select",
+    "SelectMedia",
+    "Separator",
+    "Sleep",
+    "Snapshot",
+    "Space",
+    "Subtract",
+    "System",
+    "T",
+    "Tab",
+    "U",
+    "Up",
+    "V",
+    "VolumeDown",
+    "VolumeMute",
+    "VolumeUp",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "Zoom"
+  ],
+  "KeyDeviceType": [
+    "Gamepad",
+    "Keyboard",
+    "Remote"
+  ],
+  "KeyModifiers": [
+    "Alt",
+    "Control",
+    "Meta",
+    "None",
+    "Shift"
+  ],
+  "Keyword": [
+    "CurrentValue",
+    "False",
+    "FinalValue",
+    "Pi",
+    "StartingValue",
+    "Target",
+    "True"
+  ],
+  "Kind": [
+    "Background",
+    "File",
+    "OpenUri",
+    "Reopen"
+  ],
+  "LabelPosition": [
+    "Bottom",
+    "Collapsed",
+    "Right"
+  ],
+  "LabelPositionProperty": [
+    "Bottom",
+    "Collapsed",
+    "Right"
+  ],
+  "LandmarkTypeProperty": [
+    "Banner",
+    "Complementary",
+    "ContentInfo",
+    "Form",
+    "Main",
+    "Navigation",
+    "Region",
+    "Search"
+  ],
+  "LeftNavigationStrategyProperty": [
+    "Auto",
+    "NavigationDirectionDistance",
+    "Projection",
+    "RectilinearDistance"
+  ],
+  "LineCap": [
+    "Flat",
+    "Round",
+    "Square"
+  ],
+  "LineCapProperty": [
+    "Flat",
+    "Round",
+    "Square"
+  ],
+  "LineJoin": [
+    "Bevel",
+    "Miter",
+    "Round"
+  ],
+  "LineJoinProperty": [
+    "Bevel",
+    "Miter",
+    "Round"
+  ],
+  "LiveSettingProperty": [
+    "Assertive",
+    "Off",
+    "Polite"
+  ],
+  "Location": [
+    "Baseline",
+    "Overline",
+    "Strikethrough",
+    "Underline"
+  ],
+  "LocationProperty": [
+    "Baseline",
+    "Overline",
+    "Strikethrough",
+    "Underline"
+  ],
+  "MacStyle": [
+    "Bold",
+    "Condensed",
+    "Extended",
+    "Italic",
+    "Outline",
+    "Shadow",
+    "Underline"
+  ],
+  "MinSeverity": [
+    "Error",
+    "Fatal",
+    "None",
+    "Warning"
+  ],
+  "Mode": [
+    "Local",
+    "Remote"
+  ],
+  "Modifiers": [
+    "Alt",
+    "Control",
+    "KeyboardMask",
+    "LeftMouseButton",
+    "Meta",
+    "MiddleMouseButton",
+    "None",
+    "PenBarrelButton",
+    "PenEraser",
+    "PenInverted",
+    "RightMouseButton",
+    "Shift",
+    "XButton1MouseButton",
+    "XButton2MouseButton"
+  ],
+  "Name": [
+    "ElementName",
+    "RelativeSource"
+  ],
+  "NavigationMethod": [
+    "Directional",
+    "Pointer",
+    "Tab",
+    "Unspecified"
+  ],
+  "NavigationModesProperty": [
+    "Disabled",
+    "Enabled",
+    "Gamepad",
+    "Keyboard",
+    "Remote"
+  ],
+  "NavigationStrategyOverride": [
+    "Auto",
+    "NavigationDirectionDistance",
+    "Projection",
+    "RectilinearDistance"
+  ],
+  "NavigationType": [
+    "Insert",
+    "Pop",
+    "PopModal",
+    "PopToRoot",
+    "Push",
+    "PushModal",
+    "Remove",
+    "Replace"
+  ],
+  "NetWmWindowTypeProperty": [
+    "Desktop",
+    "Dialog",
+    "Dock",
+    "Menu",
+    "Normal",
+    "Splash",
+    "Toolbar",
+    "Utility"
+  ],
+  "NewMode": [
+    "Decade",
+    "Month",
+    "Year"
+  ],
+  "NewState": [
+    "Closed",
+    "Open"
+  ],
+  "NodeType": [
+    "Attribute",
+    "CDATA",
+    "Comment",
+    "Document",
+    "DocumentFragment",
+    "DocumentType",
+    "Element",
+    "EndElement",
+    "EndEntity",
+    "Entity",
+    "EntityReference",
+    "None",
+    "Notation",
+    "ProcessingInstruction",
+    "SignificantWhitespace",
+    "Text",
+    "Whitespace",
+    "XmlDeclaration"
+  ],
+  "NonClientHitTestResultProperty": [
+    "Bottom",
+    "BottomLeft",
+    "BottomRight",
+    "Caption",
+    "Client",
+    "Close",
+    "Left",
+    "MaxButton",
+    "MinButton",
+    "Nowhere",
+    "Right",
+    "Top",
+    "TopLeft",
+    "TopRight"
+  ],
+  "NotificationType": [
+    "Error",
+    "Information",
+    "Success",
+    "Warning"
+  ],
+  "NotificationTypeProperty": [
+    "Error",
+    "Information",
+    "Success",
+    "Warning"
+  ],
+  "OldMode": [
+    "Decade",
+    "Month",
+    "Year"
+  ],
+  "Operator": [
+    "Equals",
+    "GreaterThan",
+    "GreaterThanOrEquals",
+    "LessThan",
+    "LessThanOrEquals",
+    "None"
+  ],
+  "Orientation": [
+    "Horizontal",
+    "Vertical"
+  ],
+  "OrientationProperty": [
+    "Horizontal",
+    "Vertical"
+  ],
+  "OverflowButtonVisibility": [
+    "Auto",
+    "Collapsed",
+    "Visible"
+  ],
+  "OverflowButtonVisibilityProperty": [
+    "Auto",
+    "Collapsed",
+    "Visible"
+  ],
+  "PanePlacement": [
+    "Bottom",
+    "Left",
+    "Right",
+    "Top"
+  ],
+  "PanePlacementProperty": [
+    "Bottom",
+    "Left",
+    "Right",
+    "Top"
+  ],
+  "PanelType": [
+    "Day",
+    "Hour",
+    "Minute",
+    "Month",
+    "Second",
+    "TimePeriod",
+    "Year"
+  ],
+  "PanelTypeProperty": [
+    "Day",
+    "Hour",
+    "Minute",
+    "Month",
+    "Second",
+    "TimePeriod",
+    "Year"
+  ],
+  "ParsingNumberStyle": [
+    "AllowBinarySpecifier",
+    "AllowCurrencySymbol",
+    "AllowDecimalPoint",
+    "AllowExponent",
+    "AllowHexSpecifier",
+    "AllowLeadingSign",
+    "AllowLeadingWhite",
+    "AllowParentheses",
+    "AllowThousands",
+    "AllowTrailingSign",
+    "AllowTrailingWhite",
+    "Any",
+    "BinaryNumber",
+    "Currency",
+    "Float",
+    "HexNumber",
+    "Integer",
+    "None",
+    "Number"
+  ],
+  "ParsingNumberStyleProperty": [
+    "AllowBinarySpecifier",
+    "AllowCurrencySymbol",
+    "AllowDecimalPoint",
+    "AllowExponent",
+    "AllowHexSpecifier",
+    "AllowLeadingSign",
+    "AllowLeadingWhite",
+    "AllowParentheses",
+    "AllowThousands",
+    "AllowTrailingSign",
+    "AllowTrailingWhite",
+    "Any",
+    "BinaryNumber",
+    "Currency",
+    "Float",
+    "HexNumber",
+    "Integer",
+    "None",
+    "Number"
+  ],
+  "PenOffsetUnit": [
+    "FontRecommended",
+    "FontRenderingEmSize",
+    "Pixel"
+  ],
+  "PenThicknessUnit": [
+    "FontRecommended",
+    "FontRenderingEmSize",
+    "Pixel"
+  ],
+  "PhysicalKey": [
+    "A",
+    "Again",
+    "AltLeft",
+    "AltRight",
+    "ArrowDown",
+    "ArrowLeft",
+    "ArrowRight",
+    "ArrowUp",
+    "AudioVolumeDown",
+    "AudioVolumeMute",
+    "AudioVolumeUp",
+    "B",
+    "Backquote",
+    "Backslash",
+    "Backspace",
+    "BracketLeft",
+    "BracketRight",
+    "BrowserBack",
+    "BrowserFavorites",
+    "BrowserForward",
+    "BrowserHome",
+    "BrowserRefresh",
+    "BrowserSearch",
+    "BrowserStop",
+    "C",
+    "CapsLock",
+    "Comma",
+    "ContextMenu",
+    "ControlLeft",
+    "ControlRight",
+    "Convert",
+    "Copy",
+    "Cut",
+    "D",
+    "Delete",
+    "Digit0",
+    "Digit1",
+    "Digit2",
+    "Digit3",
+    "Digit4",
+    "Digit5",
+    "Digit6",
+    "Digit7",
+    "Digit8",
+    "Digit9",
+    "E",
+    "Eject",
+    "End",
+    "Enter",
+    "Equal",
+    "Escape",
+    "F",
+    "F1",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F2",
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    "Find",
+    "G",
+    "H",
+    "Help",
+    "Home",
+    "I",
+    "Insert",
+    "IntlBackslash",
+    "IntlRo",
+    "IntlYen",
+    "J",
+    "K",
+    "KanaMode",
+    "L",
+    "Lang1",
+    "Lang2",
+    "Lang3",
+    "Lang4",
+    "Lang5",
+    "LaunchApp1",
+    "LaunchApp2",
+    "LaunchMail",
+    "M",
+    "MediaPlayPause",
+    "MediaSelect",
+    "MediaStop",
+    "MediaTrackNext",
+    "MediaTrackPrevious",
+    "MetaLeft",
+    "MetaRight",
+    "Minus",
+    "N",
+    "NonConvert",
+    "None",
+    "NumLock",
+    "NumPad0",
+    "NumPad1",
+    "NumPad2",
+    "NumPad3",
+    "NumPad4",
+    "NumPad5",
+    "NumPad6",
+    "NumPad7",
+    "NumPad8",
+    "NumPad9",
+    "NumPadAdd",
+    "NumPadClear",
+    "NumPadComma",
+    "NumPadDecimal",
+    "NumPadDivide",
+    "NumPadEnter",
+    "NumPadEqual",
+    "NumPadMultiply",
+    "NumPadParenLeft",
+    "NumPadParenRight",
+    "NumPadSubtract",
+    "O",
+    "Open",
+    "P",
+    "PageDown",
+    "PageUp",
+    "Paste",
+    "Pause",
+    "Period",
+    "Power",
+    "PrintScreen",
+    "Props",
+    "Q",
+    "Quote",
+    "R",
+    "S",
+    "ScrollLock",
+    "Select",
+    "Semicolon",
+    "ShiftLeft",
+    "ShiftRight",
+    "Slash",
+    "Sleep",
+    "Space",
+    "T",
+    "Tab",
+    "U",
+    "Undo",
+    "V",
+    "W",
+    "WakeUp",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "Placement": [
+    "AnchorAndGravity",
+    "Bottom",
+    "BottomEdgeAlignedLeft",
+    "BottomEdgeAlignedRight",
+    "Center",
+    "Custom",
+    "Left",
+    "LeftEdgeAlignedBottom",
+    "LeftEdgeAlignedTop",
+    "Pointer",
+    "Right",
+    "RightEdgeAlignedBottom",
+    "RightEdgeAlignedTop",
+    "Top",
+    "TopEdgeAlignedLeft",
+    "TopEdgeAlignedRight"
+  ],
+  "PlacementAnchor": [
+    "AllMask",
+    "Bottom",
+    "BottomLeft",
+    "BottomRight",
+    "HorizontalMask",
+    "Left",
+    "None",
+    "Right",
+    "Top",
+    "TopLeft",
+    "TopRight",
+    "VerticalMask"
+  ],
+  "PlacementAnchorProperty": [
+    "AllMask",
+    "Bottom",
+    "BottomLeft",
+    "BottomRight",
+    "HorizontalMask",
+    "Left",
+    "None",
+    "Right",
+    "Top",
+    "TopLeft",
+    "TopRight",
+    "VerticalMask"
+  ],
+  "PlacementConstraintAdjustment": [
+    "All",
+    "FlipX",
+    "FlipY",
+    "None",
+    "ResizeX",
+    "ResizeY",
+    "SlideX",
+    "SlideY"
+  ],
+  "PlacementConstraintAdjustmentProperty": [
+    "All",
+    "FlipX",
+    "FlipY",
+    "None",
+    "ResizeX",
+    "ResizeY",
+    "SlideX",
+    "SlideY"
+  ],
+  "PlacementGravity": [
+    "Bottom",
+    "BottomLeft",
+    "BottomRight",
+    "Left",
+    "None",
+    "Right",
+    "Top",
+    "TopLeft",
+    "TopRight"
+  ],
+  "PlacementGravityProperty": [
+    "Bottom",
+    "BottomLeft",
+    "BottomRight",
+    "Left",
+    "None",
+    "Right",
+    "Top",
+    "TopLeft",
+    "TopRight"
+  ],
+  "PlacementProperty": [
+    "AnchorAndGravity",
+    "Bottom",
+    "BottomEdgeAlignedLeft",
+    "BottomEdgeAlignedRight",
+    "Center",
+    "Custom",
+    "Left",
+    "LeftEdgeAlignedBottom",
+    "LeftEdgeAlignedTop",
+    "Pointer",
+    "Right",
+    "RightEdgeAlignedBottom",
+    "RightEdgeAlignedTop",
+    "Top",
+    "TopEdgeAlignedLeft",
+    "TopEdgeAlignedRight"
+  ],
+  "PlatformApi": [
+    "DirectX11",
+    "DirectX9"
+  ],
+  "Platforms": [
+    "All",
+    "Linux",
+    "MacOS",
+    "Windows"
+  ],
+  "PlayState": [
+    "Pause",
+    "Run",
+    "Stop"
+  ],
+  "PlaybackBehavior": [
+    "Always",
+    "Auto",
+    "OnlyIfVisible"
+  ],
+  "PlaybackBehaviorProperty": [
+    "Always",
+    "Auto",
+    "OnlyIfVisible"
+  ],
+  "PlaybackDirection": [
+    "Alternate",
+    "AlternateReverse",
+    "Normal",
+    "Reverse"
+  ],
+  "PlaybackDirectionOpposite": [
+    "Alternate",
+    "AlternateReverse",
+    "Normal",
+    "Reverse"
+  ],
+  "PlaybackDirectionProperty": [
+    "Alternate",
+    "AlternateReverse",
+    "Normal",
+    "Reverse"
+  ],
+  "PointerType": [
+    "Mouse",
+    "Pen",
+    "Touch"
+  ],
+  "PollErrorMask": [
+    "None",
+    "POLLERR",
+    "POLLHUP",
+    "POLLIN",
+    "POLLNVAL",
+    "POLLOUT",
+    "POLLPRI",
+    "POLLRDHUP"
+  ],
+  "Position": [
+    "BottomCenter",
+    "BottomLeft",
+    "BottomRight",
+    "TopCenter",
+    "TopLeft",
+    "TopRight"
+  ],
+  "PositionProperty": [
+    "BottomCenter",
+    "BottomLeft",
+    "BottomRight",
+    "TopCenter",
+    "TopLeft",
+    "TopRight"
+  ],
+  "Priority": [
+    "Animation",
+    "Inherited",
+    "LocalValue",
+    "Style",
+    "StyleTrigger",
+    "Template",
+    "Unset"
+  ],
+  "ProvidedValue": [
+    "DateTime",
+    "Int32",
+    "Null",
+    "String",
+    "TimeSpan",
+    "Uri"
+  ],
+  "PullDirection": [
+    "BottomToTop",
+    "LeftToRight",
+    "RightToLeft",
+    "TopToBottom"
+  ],
+  "PullDirectionProperty": [
+    "BottomToTop",
+    "LeftToRight",
+    "RightToLeft",
+    "TopToBottom"
+  ],
+  "QueryType": [
+    "Child",
+    "Descendant",
+    "Template"
+  ],
+  "ReadState": [
+    "Closed",
+    "EndOfFile",
+    "Error",
+    "Initial",
+    "Interactive"
+  ],
+  "Reason": [
+    "Application",
+    "DpiChange",
+    "Layout",
+    "Unspecified",
+    "User"
+  ],
+  "RefreshVisualizerStateProperty": [
+    "Idle",
+    "Interacting",
+    "Peeking",
+    "Pending",
+    "Refreshing"
+  ],
+  "RequestedDrawnDecorations": [
+    "Border",
+    "None",
+    "ResizeGrips",
+    "Shadow",
+    "TitleBar"
+  ],
+  "ResetBehavior": [
+    "Remove",
+    "Reset"
+  ],
+  "ResizeBehavior": [
+    "BasedOnAlignment",
+    "CurrentAndNext",
+    "PreviousAndCurrent",
+    "PreviousAndNext"
+  ],
+  "ResizeBehaviorProperty": [
+    "BasedOnAlignment",
+    "CurrentAndNext",
+    "PreviousAndCurrent",
+    "PreviousAndNext"
+  ],
+  "ResizeDirection": [
+    "Auto",
+    "Columns",
+    "Rows"
+  ],
+  "ResizeDirectionProperty": [
+    "Auto",
+    "Columns",
+    "Rows"
+  ],
+  "ResultEffects": [
+    "Copy",
+    "Link",
+    "Move",
+    "None"
+  ],
+  "ReturnKeyType": [
+    "Default",
+    "Done",
+    "Go",
+    "Next",
+    "Previous",
+    "Return",
+    "Search",
+    "Send"
+  ],
+  "ReturnKeyTypeProperty": [
+    "Default",
+    "Done",
+    "Go",
+    "Next",
+    "Previous",
+    "Return",
+    "Search",
+    "Send"
+  ],
+  "RightNavigationStrategyProperty": [
+    "Auto",
+    "NavigationDirectionDistance",
+    "Projection",
+    "RectilinearDistance"
+  ],
+  "Role": [
+    "Accelerator",
+    "Alert",
+    "Animation",
+    "Application",
+    "Arrow",
+    "Article",
+    "Audio",
+    "AutoComplete",
+    "BlockQuote",
+    "Calendar",
+    "Canvas",
+    "CheckBox",
+    "CheckMenuItem",
+    "ColorChooser",
+    "ColumnHeader",
+    "ComboBox",
+    "Comment",
+    "DateEditor",
+    "Definition",
+    "DesktopFrame",
+    "DesktopIcon",
+    "Dial",
+    "Dialog",
+    "DirectoryPane",
+    "Document",
+    "DocumentEmail",
+    "DocumentPresentation",
+    "DocumentSpreadsheet",
+    "DocumentText",
+    "DocumentWeb",
+    "DrawingArea",
+    "EditBar",
+    "Embedded",
+    "Entry",
+    "Extended",
+    "FileChooser",
+    "Filler",
+    "FocusTraversable",
+    "Footer",
+    "Form",
+    "Frame",
+    "GlassPane",
+    "Grouping",
+    "Header",
+    "Heading",
+    "HtmlContainer",
+    "Icon",
+    "Image",
+    "ImageMap",
+    "InfoBar",
+    "InputMethodWindow",
+    "InternalFrame",
+    "Invalid",
+    "Label",
+    "Landmark",
+    "LayeredPane",
+    "LevelBar",
+    "Link",
+    "List",
+    "ListBox",
+    "ListItem",
+    "Log",
+    "Marquee",
+    "Math",
+    "MathFraction",
+    "MathRoot",
+    "Menu",
+    "MenuBar",
+    "MenuItem",
+    "Notification",
+    "OptionPane",
+    "Page",
+    "PageTab",
+    "PageTabList",
+    "Panel",
+    "Paragraph",
+    "PasswordText",
+    "PopupMenu",
+    "ProgressBar",
+    "PushButton",
+    "RadioButton",
+    "RadioMenuItem",
+    "Rating",
+    "RedundantObject",
+    "RootPane",
+    "RowHeader",
+    "Ruler",
+    "ScrollBar",
+    "ScrollPane",
+    "Section",
+    "Separator",
+    "Slider",
+    "SpinButton",
+    "SplitPane",
+    "Static",
+    "StatusBar",
+    "Subscript",
+    "Superscript",
+    "Table",
+    "TableCell",
+    "TableColumnHeader",
+    "TableRow",
+    "TableRowHeader",
+    "TearoffMenuItem",
+    "Terminal",
+    "Text",
+    "Timer",
+    "TitleBar",
+    "ToggleButton",
+    "ToolBar",
+    "ToolTip",
+    "Tree",
+    "TreeItem",
+    "TreeTable",
+    "Unknown",
+    "Video",
+    "Viewport",
+    "Window"
+  ],
+  "Route": [
+    "Bubble",
+    "Direct",
+    "Tunnel"
+  ],
+  "RoutingStrategies": [
+    "Bubble",
+    "Direct",
+    "Tunnel"
+  ],
+  "ScopeKind": [
+    "ControlTemplate",
+    "Style"
+  ],
+  "ScopeType": [
+    "Container",
+    "ControlTemplate",
+    "Style",
+    "Transitions"
+  ],
+  "ScrollEventType": [
+    "EndScroll",
+    "LargeDecrement",
+    "LargeIncrement",
+    "SmallDecrement",
+    "SmallIncrement",
+    "ThumbTrack"
+  ],
+  "SelectedDateFormat": [
+    "Custom",
+    "Long",
+    "Short"
+  ],
+  "SelectedDateFormatProperty": [
+    "Custom",
+    "Long",
+    "Short"
+  ],
+  "SelectionMode": [
+    "MultipleRange",
+    "None",
+    "SingleDate",
+    "SingleRange"
+  ],
+  "SelectionModeProperty": [
+    "MultipleRange",
+    "None",
+    "SingleDate",
+    "SingleRange"
+  ],
+  "SelectionModifiers": [
+    "Alt",
+    "Control",
+    "Meta",
+    "None",
+    "Shift"
+  ],
+  "SelectorType": [
+    "Child",
+    "Descendant",
+    "Template"
+  ],
+  "Severity": [
+    "Error",
+    "Fatal",
+    "Info",
+    "Warning"
+  ],
+  "Shape": [
+    "Box",
+    "Ring"
+  ],
+  "ShapeProperty": [
+    "Box",
+    "Ring"
+  ],
+  "ShowMode": [
+    "Standard",
+    "Transient",
+    "TransientWithDismissOnPointerMoveAway"
+  ],
+  "ShowModeProperty": [
+    "Standard",
+    "Transient",
+    "TransientWithDismissOnPointerMoveAway"
+  ],
+  "ShutdownMode": [
+    "OnExplicitShutdown",
+    "OnLastWindowClose",
+    "OnMainWindowClose"
+  ],
+  "SizeToContent": [
+    "Height",
+    "Manual",
+    "Width",
+    "WidthAndHeight"
+  ],
+  "SizeToContentProperty": [
+    "Height",
+    "Manual",
+    "Width",
+    "WidthAndHeight"
+  ],
+  "SizingProperty": [
+    "Height",
+    "Normal",
+    "Width",
+    "WidthAndHeight"
+  ],
+  "SnapPointsAlignment": [
+    "Center",
+    "Far",
+    "Near"
+  ],
+  "SnapPointsType": [
+    "Mandatory",
+    "MandatorySingle",
+    "None"
+  ],
+  "SplitOptions": [
+    "None",
+    "RemoveEmptyEntries",
+    "TrimEntries"
+  ],
+  "SpreadMethod": [
+    "Pad",
+    "Reflect",
+    "Repeat"
+  ],
+  "SpreadMethodProperty": [
+    "Pad",
+    "Reflect",
+    "Repeat"
+  ],
+  "State": [
+    "Closed",
+    "Open"
+  ],
+  "Status": [
+    "Aborted",
+    "Completed",
+    "Executing",
+    "Pending"
+  ],
+  "StopBehavior": [
+    "LeaveCurrentValue",
+    "SetToFinalValue",
+    "SetToInitialValue"
+  ],
+  "Stretch": [
+    "Condensed",
+    "Expanded",
+    "ExtraCondensed",
+    "ExtraExpanded",
+    "Normal",
+    "SemiCondensed",
+    "SemiExpanded",
+    "UltraCondensed",
+    "UltraExpanded"
+  ],
+  "StretchDirection": [
+    "Both",
+    "DownOnly",
+    "UpOnly"
+  ],
+  "StretchDirectionProperty": [
+    "Both",
+    "DownOnly",
+    "UpOnly"
+  ],
+  "StretchProperty": [
+    "Fill",
+    "None",
+    "Uniform",
+    "UniformToFill"
+  ],
+  "StrokeJoin": [
+    "Bevel",
+    "Miter",
+    "Round"
+  ],
+  "StrokeJoinProperty": [
+    "Bevel",
+    "Miter",
+    "Round"
+  ],
+  "StrokeLineCap": [
+    "Flat",
+    "Round",
+    "Square"
+  ],
+  "StrokeLineCapProperty": [
+    "Flat",
+    "Round",
+    "Square"
+  ],
+  "StrokeOffsetUnit": [
+    "FontRecommended",
+    "FontRenderingEmSize",
+    "Pixel"
+  ],
+  "StrokeOffsetUnitProperty": [
+    "FontRecommended",
+    "FontRenderingEmSize",
+    "Pixel"
+  ],
+  "StrokeThicknessUnit": [
+    "FontRecommended",
+    "FontRenderingEmSize",
+    "Pixel"
+  ],
+  "StrokeThicknessUnitProperty": [
+    "FontRecommended",
+    "FontRenderingEmSize",
+    "Pixel"
+  ],
+  "Style": [
+    "Italic",
+    "Normal",
+    "Oblique"
+  ],
+  "SubPixel": [
+    "DRM_MODE_SUBPIXEL_HORIZONTAL_BGR",
+    "DRM_MODE_SUBPIXEL_HORIZONTAL_RGB",
+    "DRM_MODE_SUBPIXEL_NONE",
+    "DRM_MODE_SUBPIXEL_UNKNOWN",
+    "DRM_MODE_SUBPIXEL_VERTICAL_BGR",
+    "DRM_MODE_SUBPIXEL_VERTICAL_RGB"
+  ],
+  "SweepDirection": [
+    "Clockwise",
+    "CounterClockwise"
+  ],
+  "SweepDirectionProperty": [
+    "Clockwise",
+    "CounterClockwise"
+  ],
+  "SwipeDirection": [
+    "Down",
+    "Left",
+    "Right",
+    "Up"
+  ],
+  "SystemBarTheme": [
+    "Dark",
+    "Light"
+  ],
+  "SystemDecorations": [
+    "BorderOnly",
+    "Full",
+    "None"
+  ],
+  "TabNavigationProperty": [
+    "Contained",
+    "Continue",
+    "Cycle",
+    "Local",
+    "None",
+    "Once"
+  ],
+  "TabPlacement": [
+    "Auto",
+    "Bottom",
+    "Left",
+    "Right",
+    "Top"
+  ],
+  "TabPlacementProperty": [
+    "Auto",
+    "Bottom",
+    "Left",
+    "Right",
+    "Top"
+  ],
+  "TabStripPlacement": [
+    "Bottom",
+    "Left",
+    "Right",
+    "Top"
+  ],
+  "TabStripPlacementProperty": [
+    "Bottom",
+    "Left",
+    "Right",
+    "Top"
+  ],
+  "TextAlignment": [
+    "Center",
+    "DetectFromContent",
+    "End",
+    "Justify",
+    "Left",
+    "Right",
+    "Start"
+  ],
+  "TextAlignmentProperty": [
+    "Center",
+    "DetectFromContent",
+    "End",
+    "Justify",
+    "Left",
+    "Right",
+    "Start"
+  ],
+  "TextWrapping": [
+    "NoWrap",
+    "Wrap",
+    "WrapWithOverflow"
+  ],
+  "TextWrappingProperty": [
+    "NoWrap",
+    "Wrap",
+    "WrapWithOverflow"
+  ],
+  "ThemeVariant": [
+    "Dark",
+    "Light"
+  ],
+  "ThirdComponent": [
+    "Alpha",
+    "Component1",
+    "Component2",
+    "Component3"
+  ],
+  "ThirdComponentProperty": [
+    "Alpha",
+    "Component1",
+    "Component2",
+    "Component3"
+  ],
+  "TickPlacement": [
+    "BottomRight",
+    "None",
+    "Outside",
+    "TopLeft"
+  ],
+  "TickPlacementProperty": [
+    "BottomRight",
+    "None",
+    "Outside",
+    "TopLeft"
+  ],
+  "TileMode": [
+    "FlipX",
+    "FlipXY",
+    "FlipY",
+    "None",
+    "Tile"
+  ],
+  "TileModeProperty": [
+    "FlipX",
+    "FlipXY",
+    "FlipY",
+    "None",
+    "Tile"
+  ],
+  "Tiling": [
+    "VK_IMAGE_TILING_DRM_FORMAT_MODIFIER_EXT",
+    "VK_IMAGE_TILING_LINEAR",
+    "VK_IMAGE_TILING_OPTIMAL"
+  ],
+  "ToggleType": [
+    "CheckBox",
+    "None",
+    "Radio"
+  ],
+  "ToggleTypeProperty": [
+    "CheckBox",
+    "None",
+    "Radio"
+  ],
+  "Token": [
+    "Close",
+    "Comma",
+    "EqualSign",
+    "None",
+    "Open",
+    "PropertyName",
+    "QuotedMarkupExtension",
+    "String",
+    "TypeName"
+  ],
+  "Tree": [
+    "Logical",
+    "Visual"
+  ],
+  "Type": [
+    "Error",
+    "Invalid",
+    "MethodCall",
+    "MethodReturn",
+    "Signal"
+  ],
+  "UpNavigationStrategyProperty": [
+    "Auto",
+    "NavigationDirectionDistance",
+    "Projection",
+    "RectilinearDistance"
+  ],
+  "UpdateSourceTrigger": [
+    "Default",
+    "Explicit",
+    "LostFocus",
+    "PropertyChanged"
+  ],
+  "UriKindProperty": [
+    "Absolute",
+    "Relative",
+    "RelativeOrAbsolute"
+  ],
+  "Usage": [
+    "Merged",
+    "Unknown",
+    "Used"
+  ],
+  "UsageFlags": [
+    "VK_IMAGE_USAGE_ATTACHMENT_FEEDBACK_LOOP_BIT_EXT",
+    "VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT",
+    "VK_IMAGE_USAGE_DEPTH_STENCIL_ATTACHMENT_BIT",
+    "VK_IMAGE_USAGE_FRAGMENT_DENSITY_MAP_BIT_EXT",
+    "VK_IMAGE_USAGE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR",
+    "VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT",
+    "VK_IMAGE_USAGE_INVOCATION_MASK_BIT_HUAWEI",
+    "VK_IMAGE_USAGE_SAMPLED_BIT",
+    "VK_IMAGE_USAGE_SAMPLE_BLOCK_MATCH_BIT_QCOM",
+    "VK_IMAGE_USAGE_SAMPLE_WEIGHT_BIT_QCOM",
+    "VK_IMAGE_USAGE_SHADING_RATE_IMAGE_BIT_NV",
+    "VK_IMAGE_USAGE_STORAGE_BIT",
+    "VK_IMAGE_USAGE_TRANSFER_DST_BIT",
+    "VK_IMAGE_USAGE_TRANSFER_SRC_BIT",
+    "VK_IMAGE_USAGE_TRANSIENT_ATTACHMENT_BIT"
+  ],
+  "ValidSpinDirection": [
+    "Decrease",
+    "Increase",
+    "None"
+  ],
+  "ValidSpinDirectionProperty": [
+    "Decrease",
+    "Increase",
+    "None"
+  ],
+  "VerticalAlignment": [
+    "Bottom",
+    "Center",
+    "Stretch",
+    "Top"
+  ],
+  "VerticalAlignmentProperty": [
+    "Bottom",
+    "Center",
+    "Stretch",
+    "Top"
+  ],
+  "VerticalContentAlignment": [
+    "Bottom",
+    "Center",
+    "Stretch",
+    "Top"
+  ],
+  "VerticalContentAlignmentProperty": [
+    "Bottom",
+    "Center",
+    "Stretch",
+    "Top"
+  ],
+  "VerticalScrollBarVisibility": [
+    "Auto",
+    "Disabled",
+    "Hidden",
+    "Visible"
+  ],
+  "VerticalScrollBarVisibilityProperty": [
+    "Auto",
+    "Disabled",
+    "Hidden",
+    "Visible"
+  ],
+  "VerticalScrollVisibility": [
+    "Auto",
+    "Disabled",
+    "Hidden",
+    "Visible"
+  ],
+  "VerticalSnapPointsAlignment": [
+    "Center",
+    "Far",
+    "Near"
+  ],
+  "VerticalSnapPointsAlignmentProperty": [
+    "Center",
+    "Far",
+    "Near"
+  ],
+  "VerticalSnapPointsType": [
+    "Mandatory",
+    "MandatorySingle",
+    "None"
+  ],
+  "VerticalSnapPointsTypeProperty": [
+    "Mandatory",
+    "MandatorySingle",
+    "None"
+  ],
+  "Visibility": [
+    "Auto",
+    "Disabled",
+    "Hidden",
+    "Visible"
+  ],
+  "VisibilityProperty": [
+    "Auto",
+    "Disabled",
+    "Hidden",
+    "Visible"
+  ],
+  "Weight": [
+    "Black",
+    "Bold",
+    "DemiBold",
+    "ExtraBlack",
+    "ExtraBold",
+    "ExtraLight",
+    "Heavy",
+    "Light",
+    "Medium",
+    "Normal",
+    "Regular",
+    "SemiBold",
+    "SemiLight",
+    "Solid",
+    "Thin",
+    "UltraBlack",
+    "UltraBold",
+    "UltraLight"
+  ],
+  "WellKnownFolder": [
+    "Desktop",
+    "Documents",
+    "Downloads",
+    "Music",
+    "Pictures",
+    "Videos"
+  ],
+  "WholeWordTextActionModifiers": [
+    "Alt",
+    "Control",
+    "Meta",
+    "None",
+    "Shift"
+  ],
+  "Win32WindowCornerPreference": [
+    "Default",
+    "DoNotRound",
+    "Round",
+    "RoundSmall"
+  ],
+  "WindowCornerPreferenceProperty": [
+    "Default",
+    "DoNotRound",
+    "Round",
+    "RoundSmall"
+  ],
+  "WindowDecorations": [
+    "BorderOnly",
+    "Full",
+    "None"
+  ],
+  "WindowDecorationsProperty": [
+    "BorderOnly",
+    "Full",
+    "None"
+  ],
+  "WindowStartupLocation": [
+    "CenterOwner",
+    "CenterScreen",
+    "Manual"
+  ],
+  "WindowStartupLocationProperty": [
+    "CenterOwner",
+    "CenterScreen",
+    "Manual"
+  ],
+  "WindowState": [
+    "FullScreen",
+    "Maximized",
+    "Minimized",
+    "Normal"
+  ],
+  "WindowStateProperty": [
+    "FullScreen",
+    "Maximized",
+    "Minimized",
+    "Normal"
+  ],
+  "level": [
+    "Debug",
+    "Error",
+    "Fatal",
+    "Information",
+    "Verbose",
+    "Warning"
+  ],
+  "type": [
+    "BindingError",
+    "BindingErrorWithFallback",
+    "DataValidationError",
+    "DataValidationErrorWithFallback",
+    "DoNothing",
+    "HasError",
+    "HasValue",
+    "TypeMask",
+    "UnsetValue",
+    "Value"
+  ]
+}

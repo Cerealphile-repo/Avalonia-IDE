@@ -1,0 +1,1028 @@
+[
+  {
+    "Name": "ShowAccessKey",
+    "Type": "Boolean",
+    "Owner": "AccessKeyHandler",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AdornedElement",
+    "Type": "Visual",
+    "Owner": "AdornerLayer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Adorner",
+    "Type": "Control",
+    "Owner": "AdornerLayer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsClipEnabled",
+    "Type": "Boolean",
+    "Owner": "AdornerLayer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AttachedBinding",
+    "Type": "BindingBase",
+    "Owner": "AssignBindingTestControl",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Attached",
+    "Type": "String",
+    "Owner": "AttachedOwner",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AttachedString",
+    "Type": "String",
+    "Owner": "AttachedProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Double",
+    "Type": "Double",
+    "Owner": "AttachedOwner",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Name",
+    "Type": "String",
+    "Owner": "Auth",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AcceleratorKey",
+    "Type": "String",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AccessKey",
+    "Type": "String",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AccessibilityView",
+    "Type": "AccessibilityView",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AutomationId",
+    "Type": "String",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ClassNameOverride",
+    "Type": "String",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ControlTypeOverride",
+    "Type": "Nullable\u003CAutomationControlType\u003E",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "HeadingLevel",
+    "Type": "Int32",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "HelpText",
+    "Type": "String",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsColumnHeader",
+    "Type": "Boolean",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsControlElementOverride",
+    "Type": "Nullable\u003CBoolean\u003E",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsOffscreenBehavior",
+    "Type": "IsOffscreenBehavior",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsRequiredForForm",
+    "Type": "Boolean",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsRowHeader",
+    "Type": "Boolean",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ItemStatus",
+    "Type": "String",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ItemType",
+    "Type": "String",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "LabeledBy",
+    "Type": "Control",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "LandmarkType",
+    "Type": "Nullable\u003CAutomationLandmarkType\u003E",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "LiveSetting",
+    "Type": "AutomationLiveSetting",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Name",
+    "Type": "String",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "PositionInSet",
+    "Type": "Int32",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "SizeOfSet",
+    "Type": "Int32",
+    "Owner": "AutomationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Foo",
+    "Type": "String",
+    "Owner": "BasicTestsAttachedHolder",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Bottom",
+    "Type": "Double",
+    "Owner": "Canvas",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Left",
+    "Type": "Double",
+    "Owner": "Canvas",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Right",
+    "Type": "Double",
+    "Owner": "Canvas",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Top",
+    "Type": "Double",
+    "Owner": "Canvas",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Attached",
+    "Type": "Int32",
+    "Owner": "Class1",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Foo",
+    "Type": "String",
+    "Owner": "Class1",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Inherited",
+    "Type": "Int32",
+    "Owner": "Class1",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Name",
+    "Type": "String",
+    "Owner": "Container",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Sizing",
+    "Type": "ContainerSizing",
+    "Owner": "Container",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ErrorConverter",
+    "Type": "Func\u003CObject,Object\u003E",
+    "Owner": "DataValidationErrors",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Errors",
+    "Type": "IEnumerable\u003CObject\u003E",
+    "Owner": "DataValidationErrors",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "HasErrors",
+    "Type": "Boolean",
+    "Owner": "DataValidationErrors",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "SharedSizeGroup",
+    "Type": "String",
+    "Owner": "DefinitionBase",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "DataContext",
+    "Type": "Object",
+    "Owner": "Design",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "DesignStyle",
+    "Type": "IStyle",
+    "Owner": "Design",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Height",
+    "Type": "Double",
+    "Owner": "Design",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "PreviewWith",
+    "Type": "Control",
+    "Owner": "Design",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Width",
+    "Type": "Double",
+    "Owner": "Design",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Dock",
+    "Type": "Dock",
+    "Owner": "DockPanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AllowDrop",
+    "Type": "Boolean",
+    "Owner": "DragDrop",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AttachedFlyout",
+    "Type": "FlyoutBase",
+    "Owner": "FlyoutBase",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Column",
+    "Type": "Int32",
+    "Owner": "Grid",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ColumnSpan",
+    "Type": "Int32",
+    "Owner": "Grid",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsSharedSizeScope",
+    "Type": "Boolean",
+    "Owner": "Grid",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Row",
+    "Type": "Int32",
+    "Owner": "Grid",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "RowSpan",
+    "Type": "Int32",
+    "Owner": "Grid",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "HotKey",
+    "Type": "KeyGesture",
+    "Owner": "HotKeyManager",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "TextDecorations",
+    "Type": "TextDecorationCollection",
+    "Owner": "Inline",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsHoldWithMouseEnabled",
+    "Type": "Boolean",
+    "Owner": "InputElement",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsHoldingEnabled",
+    "Type": "Boolean",
+    "Owner": "InputElement",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsInputMethodEnabled",
+    "Type": "Boolean",
+    "Owner": "InputMethod",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsTabStop",
+    "Type": "Boolean",
+    "Owner": "KeyboardNavigation",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "TabIndex",
+    "Type": "Int32",
+    "Owner": "KeyboardNavigation",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "TabNavigation",
+    "Type": "KeyboardNavigationMode",
+    "Owner": "KeyboardNavigation",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "TabOnceActiveElement",
+    "Type": "IInputElement",
+    "Owner": "KeyboardNavigation",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsServicesSubmenu",
+    "Type": "Boolean",
+    "Owner": "MacOSNativeMenuCommands",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsTemplateIcon",
+    "Type": "Boolean",
+    "Owner": "MacOSProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "NameScope",
+    "Type": "INameScope",
+    "Owner": "NameScope",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Menu",
+    "Type": "NativeMenu",
+    "Owner": "NativeDock",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsNativeMenuExported",
+    "Type": "Boolean",
+    "Owner": "NativeMenu",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Menu",
+    "Type": "NativeMenu",
+    "Owner": "NativeMenu",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "BackButtonContent",
+    "Type": "Object",
+    "Owner": "NavigationPage",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "BarHeightOverride",
+    "Type": "Nullable\u003CDouble\u003E",
+    "Owner": "NavigationPage",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "BarLayoutBehavior",
+    "Type": "Nullable\u003CBarLayoutBehavior\u003E",
+    "Owner": "NavigationPage",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "BottomCommandBar",
+    "Type": "Control",
+    "Owner": "NavigationPage",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "HasBackButton",
+    "Type": "Boolean",
+    "Owner": "NavigationPage",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "HasNavigationBar",
+    "Type": "Boolean",
+    "Owner": "NavigationPage",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsBackButtonEnabled",
+    "Type": "Boolean",
+    "Owner": "NavigationPage",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "TopCommandBar",
+    "Type": "Control",
+    "Owner": "NavigationPage",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "CloseOnClick",
+    "Type": "Boolean",
+    "Owner": "NotificationCard",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Foo",
+    "Type": "String",
+    "Owner": "Owner",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Something",
+    "Type": "AvaloniaObject",
+    "Owner": "Owner",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "FeedbackType",
+    "Type": "FeedbackType",
+    "Owner": "PlatformFeedback",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "TakesFocusFromNativeControl",
+    "Type": "Boolean",
+    "Owner": "Popup",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Above",
+    "Type": "Object",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AlignBottomWithPanel",
+    "Type": "Boolean",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AlignBottomWith",
+    "Type": "Object",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AlignHorizontalCenterWithPanel",
+    "Type": "Boolean",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AlignHorizontalCenterWith",
+    "Type": "Object",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AlignLeftWithPanel",
+    "Type": "Boolean",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AlignLeftWith",
+    "Type": "Object",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AlignRightWithPanel",
+    "Type": "Boolean",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AlignRightWith",
+    "Type": "Object",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AlignTopWithPanel",
+    "Type": "Boolean",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AlignTopWith",
+    "Type": "Object",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AlignVerticalCenterWithPanel",
+    "Type": "Boolean",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AlignVerticalCenterWith",
+    "Type": "Object",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Below",
+    "Type": "Object",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "LeftOf",
+    "Type": "Object",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "RightOf",
+    "Type": "Object",
+    "Owner": "RelativePanel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AllowAutoHide",
+    "Type": "Boolean",
+    "Owner": "ScrollViewer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "BringIntoViewOnFocusChange",
+    "Type": "Boolean",
+    "Owner": "ScrollViewer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "HorizontalScrollBarVisibility",
+    "Type": "ScrollBarVisibility",
+    "Owner": "ScrollViewer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "HorizontalSnapPointsAlignment",
+    "Type": "SnapPointsAlignment",
+    "Owner": "ScrollViewer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "HorizontalSnapPointsType",
+    "Type": "SnapPointsType",
+    "Owner": "ScrollViewer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsDeferredScrollingEnabled",
+    "Type": "Boolean",
+    "Owner": "ScrollViewer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsScrollChainingEnabled",
+    "Type": "Boolean",
+    "Owner": "ScrollViewer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsScrollInertiaEnabled",
+    "Type": "Boolean",
+    "Owner": "ScrollViewer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "VerticalScrollBarVisibility",
+    "Type": "ScrollBarVisibility",
+    "Owner": "ScrollViewer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "VerticalSnapPointsAlignment",
+    "Type": "SnapPointsAlignment",
+    "Owner": "ScrollViewer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "VerticalSnapPointsType",
+    "Type": "SnapPointsType",
+    "Owner": "ScrollViewer",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsSelected",
+    "Type": "Boolean",
+    "Owner": "SelectingItemsControl",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsTabEnabled",
+    "Type": "Boolean",
+    "Owner": "TabbedPage",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsTemplateFocusTarget",
+    "Type": "Boolean",
+    "Owner": "TemplatedControl",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "BaselineOffset",
+    "Type": "Double",
+    "Owner": "TextBlock",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "LineHeight",
+    "Type": "Double",
+    "Owner": "TextBlock",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "LineSpacing",
+    "Type": "Double",
+    "Owner": "TextBlock",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "MaxLines",
+    "Type": "Int32",
+    "Owner": "TextBlock",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "TextAlignment",
+    "Type": "TextAlignment",
+    "Owner": "TextBlock",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "TextTrimming",
+    "Type": "TextTrimming",
+    "Owner": "TextBlock",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "TextWrapping",
+    "Type": "TextWrapping",
+    "Owner": "TextBlock",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "FontFamily",
+    "Type": "FontFamily",
+    "Owner": "TextElement",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "FontFeatures",
+    "Type": "FontFeatureCollection",
+    "Owner": "TextElement",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "FontSize",
+    "Type": "Double",
+    "Owner": "TextElement",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "FontStretch",
+    "Type": "FontStretch",
+    "Owner": "TextElement",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "FontStyle",
+    "Type": "FontStyle",
+    "Owner": "TextElement",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "FontWeight",
+    "Type": "FontWeight",
+    "Owner": "TextElement",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Foreground",
+    "Type": "IBrush",
+    "Owner": "TextElement",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "LetterSpacing",
+    "Type": "Double",
+    "Owner": "TextElement",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AutoCapitalization",
+    "Type": "Boolean",
+    "Owner": "TextInputOptions",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ContentType",
+    "Type": "TextInputContentType",
+    "Owner": "TextInputOptions",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsSensitive",
+    "Type": "Boolean",
+    "Owner": "TextInputOptions",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "LocaleHints",
+    "Type": "IReadOnlyList\u003CString\u003E",
+    "Owner": "TextInputOptions",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Lowercase",
+    "Type": "Boolean",
+    "Owner": "TextInputOptions",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Multiline",
+    "Type": "Boolean",
+    "Owner": "TextInputOptions",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ReturnKeyType",
+    "Type": "TextInputReturnKeyType",
+    "Owner": "TextInputOptions",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ShowSuggestions",
+    "Type": "Nullable\u003CBoolean\u003E",
+    "Owner": "TextInputOptions",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Uppercase",
+    "Type": "Boolean",
+    "Owner": "TextInputOptions",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "TextBinding",
+    "Type": "BindingBase",
+    "Owner": "TextSearch",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Text",
+    "Type": "String",
+    "Owner": "TextSearch",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "BetweenShowDelay",
+    "Type": "Int32",
+    "Owner": "ToolTip",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "CustomPopupPlacementCallback",
+    "Type": "CustomPopupPlacementCallback",
+    "Owner": "ToolTip",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "HorizontalOffset",
+    "Type": "Double",
+    "Owner": "ToolTip",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "IsOpen",
+    "Type": "Boolean",
+    "Owner": "ToolTip",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Placement",
+    "Type": "PlacementMode",
+    "Owner": "ToolTip",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ServiceEnabled",
+    "Type": "Boolean",
+    "Owner": "ToolTip",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ShouldUseOverlayLayer",
+    "Type": "Boolean",
+    "Owner": "ToolTip",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ShowDelay",
+    "Type": "Int32",
+    "Owner": "ToolTip",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ShowOnDisabled",
+    "Type": "Boolean",
+    "Owner": "ToolTip",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Tip",
+    "Type": "Object",
+    "Owner": "ToolTip",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "VerticalOffset",
+    "Type": "Double",
+    "Owner": "ToolTip",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "AutoSafeAreaPadding",
+    "Type": "Boolean",
+    "Owner": "TopLevel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "SystemBarColor",
+    "Type": "SolidColorBrush",
+    "Owner": "TopLevel",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Icons",
+    "Type": "TrayIcons",
+    "Owner": "TrayIcon",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "FlowDirection",
+    "Type": "FlowDirection",
+    "Owner": "Visual",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "NonClientHitTestResult",
+    "Type": "Win32HitTestValue",
+    "Owner": "Win32Properties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "WindowCornerPreference",
+    "Type": "WindowCornerPreference",
+    "Owner": "Win32Properties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "ElementRole",
+    "Type": "WindowDecorationsElementRole",
+    "Owner": "WindowDecorationProperties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "NetWmWindowType",
+    "Type": "X11NetWmWindowType",
+    "Owner": "X11Properties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "WmClass",
+    "Type": "String",
+    "Owner": "X11Properties",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "DownNavigationStrategy",
+    "Type": "XYFocusNavigationStrategy",
+    "Owner": "XYFocus",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Down",
+    "Type": "InputElement",
+    "Owner": "XYFocus",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "LeftNavigationStrategy",
+    "Type": "XYFocusNavigationStrategy",
+    "Owner": "XYFocus",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Left",
+    "Type": "InputElement",
+    "Owner": "XYFocus",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "NavigationModes",
+    "Type": "XYFocusNavigationModes",
+    "Owner": "XYFocus",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "RightNavigationStrategy",
+    "Type": "XYFocusNavigationStrategy",
+    "Owner": "XYFocus",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Right",
+    "Type": "InputElement",
+    "Owner": "XYFocus",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "UpNavigationStrategy",
+    "Type": "XYFocusNavigationStrategy",
+    "Owner": "XYFocus",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "Up",
+    "Type": "InputElement",
+    "Owner": "XYFocus",
+    "Kind": "Attached"
+  },
+  {
+    "Name": "TestInt",
+    "Type": "Int32",
+    "Owner": "XamlIlBugTestsStaticClassWithAttached",
+    "Kind": "Attached"
+  }
+]

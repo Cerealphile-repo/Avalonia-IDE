@@ -1,0 +1,26 @@
+[
+    {
+        "keys": [
+            "ctrl+alt+b"
+        ],
+        "command": "avalonia_build"
+    },
+    {
+        "keys": [
+            "ctrl+alt+r"
+        ],
+        "command": "avalonia_run"
+    },
+    {
+        "keys": [
+            "ctrl+alt+i"
+        ],
+        "command": "avalonia_reindex"
+    },
+    {
+        "keys": [
+            "ctrl+alt+shift+b"
+        ],
+        "command": "avalonia_binding_completion"
+    }
+]

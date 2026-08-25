@@ -1,0 +1,166 @@
+[
+    {
+        "id": "tools",
+        "children": [
+            {
+                "caption": "Avalonia",
+                "children": [
+                    {
+                        "command": "avalonia_build",
+                        "caption": "Build"
+                    },
+                    {
+                        "command": "avalonia_run",
+                        "caption": "Run"
+                    },
+                    {
+                        "command": "avalonia_restore",
+                        "caption": "Restore"
+                    },
+                    {
+                        "command": "avalonia_clean",
+                        "caption": "Clean"
+                    },
+                    {
+                        "caption": "-"
+                    },
+                    {
+                        "caption": "Reindex Workspace",
+                        "command": "avalonia_reindex"
+                    },
+                    {
+                        "caption": "Cancel Indexing",
+                        "command": "avalonia_cancel_indexing"
+                    },
+                    {
+                        "caption": "Settings",
+                        "command": "avalonia_settings"
+                    },
+                    {
+                        "command": "avalonia_show_diagnostics",
+                        "caption": "Diagnostics"
+                    },
+                    {
+                        "caption": "Project Explorer",
+                        "command": "avalonia_explorer"
+                    },
+                    {
+                        "caption": "-"
+                    },
+                    {
+                        "command": "avalonia_go_to_view",
+                        "caption": "Go To View"
+                    },
+                    {
+                        "command": "avalonia_go_to_code_behind",
+                        "caption": "Go To Code Behind"
+                    },
+                    {
+                        "command": "avalonia_go_to_view_model",
+                        "caption": "Go To ViewModel"
+                    },
+                    {
+                        "command": "avalonia_go_to_resource",
+                        "caption": "Go To Resource"
+                    },
+                    {
+                        "command": "avalonia_go_to_definition",
+                        "caption": "Go To Definition"
+                    },
+                    {
+                        "command": "avalonia_peek_definition",
+                        "caption": "Peek Definition"
+                    },
+                    {
+                        "command": "avalonia_go_to_binding",
+                        "caption": "Go To Binding"
+                    },
+                    {
+                        "command": "avalonia_find_resource_references",
+                        "caption": "Find Resource References"
+                    },
+                    {
+                        "command": "avalonia_find_references",
+                        "caption": "Find References"
+                    },
+                    {
+                        "command": "avalonia_outline",
+                        "caption": "Outline"
+                    },
+                    {
+                        "caption": "-"
+                    },
+                    {
+                        "command": "avalonia_rename_resource",
+                        "caption": "Rename Resource"
+                    },
+                    {
+                        "caption": "-"
+                    },
+                    {
+                        "command": "avalonia_axaml_rename",
+                        "caption": "AXAML Rename"
+                    },
+                    {
+                        "command": "avalonia_axaml_code_actions",
+                        "caption": "AXAML Code Actions"
+                    },
+                    {
+                        "command": "avalonia_axaml_format",
+                        "caption": "AXAML Format Document"
+                    },
+                    {
+                        "caption": "-"
+                    },
+                    {
+                        "caption": "Binding Diagnostics",
+                        "command": "avalonia_binding_diagnostics"
+                    },
+                    {
+                        "caption": "Resource Scope",
+                        "command": "avalonia_resource_scope"
+                    },
+                    {
+                        "caption": "Related Files",
+                        "command": "avalonia_related_files"
+                    },
+                    {
+                        "caption": "Preview / Build",
+                        "command": "avalonia_preview"
+                    },
+                    {
+                        "caption": "Create View",
+                        "command": "avalonia_create_view"
+                    },
+                    {
+                        "caption": "Create Window",
+                        "command": "avalonia_create_window"
+                    },
+                    {
+                        "caption": "Create ViewModel",
+                        "command": "avalonia_create_view_model"
+                    },
+                    {
+                        "caption": "Create Resource Dictionary",
+                        "command": "avalonia_create_resource_dictionary"
+                    },
+                    {
+                        "caption": "-"
+                    },
+                    {
+                        "caption": "Extract Resource",
+                        "command": "avalonia_extract_resource"
+                    },
+                    {
+                        "caption": "Extract Style",
+                        "command": "avalonia_extract_style"
+                    },
+                    {
+                        "caption": "Convert Attribute to Property Element",
+                        "command": "avalonia_convert_property_element"
+                    }
+                ]
+            }
+        ]
+    }
+]
