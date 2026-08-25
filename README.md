@@ -247,4 +247,4 @@ The package contains:
 
 ## Version
 
-Plugin version: **2.2.0**
+Plugin version: **2.2.14**
