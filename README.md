@@ -1,250 +1,390 @@
-# Avalonia for Sublime Text
+Avalonia IDE for Sublime Text
+A complete Avalonia development environment for Sublime Text 4
 
-Avalonia development tooling for Sublime Text 4, with project-aware AXAML
-semantics, C# binding intelligence, diagnostics, navigation, resource tooling,
-and .NET project integration.
+Avalonia IDE 2.2.14 brings a full, project-aware Avalonia development workflow to Sublime Text 4.
 
-Big shout to https://github.com/SaverinOnRails/ls-for-avalonia for the Avalonia Standalone Language Server.
-To enable the language server. GOTO: prefernces:package settings:lsp: server configuration. and add:
-{
-    "avalonia": {
-        "enabled": true,
-        "command": [
-            "${packages}/Avalonia/language-server/avalonia-ls"
-        ],
-        "selector": "source.axaml"
-    }
-}
-save it. then ctrl+shift+p enter lsp select troubleshoot server then select Avalonia. there should not be any errors shown in the window.
+This is more than AXAML syntax highlighting. Avalonia IDE understands the relationship between your AXAML, C# code, ViewModels, resources, projects, and solution structure, while integrating with Roslyn/LSP for C# language services.
 
+The result is a fast, lightweight, code-first Avalonia IDE that lets you build applications without leaving Sublime Text.
 
-## Requirements
+Why Avalonia IDE?
 
-- Sublime Text 4 (development builds are supported; tested with 4207 Linux x64)
-- Python 3.14 runtime supplied by Sublime Text
-- .NET 8 or newer
-- Avalonia 11 or newer
-- LSP and LSP-Roslyn are recommended for authoritative C# language services
+Avalonia is a powerful cross-platform UI framework for .NET, but developers who prefer Sublime Text have traditionally had to assemble their own collection of packages and tools.
 
-## AXAML intelligence
+Avalonia IDE brings those pieces together into one integrated development environment.
 
-- Avalonia control completion from bundled metadata
-- Attached-property completion
-- Enum and value completion
-- Event metadata completion
-- Binding completion from indexed C# source
-- Nested binding completion through C# property types
-- `x:DataType` resolution through C# namespaces and aliases
-- Conservative `ViewNameViewModel` fallback when `x:DataType` is absent
-- Binding hover showing resolved property/type information
-- Avalonia property hover
-- Resource hover and navigation
-- `StaticResource` and `DynamicResource` completion and diagnostics
-- AXAML-aware diagnostics for unresolved resources and unknown properties
-- Go To View
-- Go To Code Behind
-- Go To ViewModel
-- Go To Resource
-- Go To Definition
-- Find Resource References
-- Resource Rename
-- AXAML Format Document
+You get:
 
-## IDE features in 2.2
+Avalonia and AXAML intelligence
+C# language services through Roslyn/LSP
+Project and solution awareness
+C#-backed AXAML binding completion
+Diagnostics
+Code navigation
+Refactoring and code actions
+Resource and style tooling
+Project Explorer
+.NET build and development commands
+Workspace indexing
+Workspace persistence
+Avalonia project scaffolding
+Integrated split terminal
 
-- Binding typo diagnostics with close-match suggestions
-- Scope-aware resource lookup (current-file/workspace approximation)
-- Related View / code-behind / ViewModel navigation
-- Resource and binding-safe text refactoring helpers
-- Extract-resource and extract-style core operations
-- Attribute-to-property-element conversion helper
-- Create View, Window, ViewModel, and ResourceDictionary scaffolding
-- External preview/build command that works with normal Avalonia projects and `dotnet watch`
+All while keeping the speed and responsiveness of Sublime Text.
 
-LSP-Roslyn remains authoritative for C# definitions, references, rename, inheritance,
-and compiler diagnostics. The Avalonia package augments it with AXAML-specific semantics.
+Features
+🧩 Avalonia / AXAML Intelligence
 
-## Diagnostics
+Avalonia IDE understands AXAML as an Avalonia UI language rather than treating it as ordinary XML.
 
-The plugin provides AXAML-aware diagnostics for common semantic problems,
-including unresolved resources and binding-property issues. C# diagnostics and
-full C# language semantics remain authoritative through LSP/Roslyn.
+Completion
 
-## Navigation and project tooling
+Context-aware completion is available for:
 
-- Solution and project discovery
-- Project Explorer
-- Symbol/outline support
-- View / code-behind / ViewModel navigation
-- Resource definitions and references
-- Build
-- Run
-- Restore
-- Clean
-- Publish
-- Test
-- Watch
-- Stop running process
-- Diagnostic navigation and clearing
-- Language status
-- Output support
+Avalonia controls
+Properties
+Attached properties
+Events
+Enums
+Property values
+Binding expressions
+Resources
+Styles
 
-### Background indexing
+The completion engine understands the Avalonia property system and the context in which a property is being used.
 
-Workspace indexing runs on a background worker so expensive filesystem and
-semantic work does not block Sublime's UI thread.
+🔗 C#-Backed Binding Completion
 
-Use **Tools → Avalonia → Reindex Workspace** for an explicit full rebuild.
+One of the most important features is the connection between AXAML and C#.
 
-The plugin reports indexing completion through Sublime's status area when
-`indexing_show_status` is enabled.
+When an AXAML view declares:
 
-### Cooperative cancellation
+x:DataType="vm:MainWindowViewModel"
 
-**Tools → Avalonia → Cancel Indexing** requests cancellation of an active
-background index. Cancellation is cooperative: a currently executing parse is
-allowed to reach a safe cancellation point rather than being forcibly killed.
-The indexer checks for cancellation between project/filesystem/semantic units
-and never installs a cancelled result as the current workspace session.
+Avalonia IDE can resolve that C# type and use its members when providing binding completion.
 
-Because cancellation is cooperative, a very small project may finish before a
-cancel request can take effect.
+For example:
 
-### Incremental AXAML indexing
+<TextBox Text="{Binding Us}" />
 
-Saving an AXAML document updates that document's semantic information without
-rebuilding unrelated AXAML documents or the C# index. Resource declarations and
-resource references contributed by the changed document are replaced in place.
+can provide completions based on the actual ViewModel:
 
-Full workspace indexing remains available for structural project changes.
+UserName
+UserEmail
+UserAddress
 
-### Workspace persistence
+Nested properties are supported as well:
 
-Workspace metadata is stored in a versioned JSON cache outside the project
-folder. The live Python `Session` is not serialized.
+{Binding UserAddress.Street}
 
-Persisted information includes the workspace root, solution/project paths,
-startup project, and file fingerprints. The cache is written atomically and is
-used to recover a known project location on a later Sublime session.
+The goal is to make AXAML bindings feel much closer to writing strongly understood C# code.
 
-Disable it with:
+🔎 Navigation
 
-```json
-"workspace_persistence_enabled": false
-```
+Avalonia IDE provides navigation between the different parts of an Avalonia application.
 
-### Configuration UI
+Available navigation includes:
 
-Use **Tools → Avalonia → Settings** to quickly toggle:
+Go To Definition
+Peek Definition
+Go To View
+Go To Code Behind
+Go To ViewModel
+Go To Binding
+Go To Resource
+Find References
+Find Resource References
+Outline
+Related Files
 
-- Show indexing status
-- Index workspace on startup
-- Enable workspace persistence
+This makes it easy to move through an application without manually searching the project.
 
-The same settings can be edited directly in the user's
-`Avalonia.sublime-settings` file.
+🎨 Resources and Styles
 
-## Configuration
+Avalonia resources receive dedicated semantic support.
 
-Default settings include:
+The IDE can:
 
-```json
-{
-    "dotnet_path": "dotnet",
-    "build_configuration": "Debug",
-    "auto_restore": true,
-    "hot_reload": false,
-    "diagnostics_on_save": false,
-    "indexing_show_status": true,
-    "indexing_on_startup": true,
-    "workspace_persistence_enabled": true,
-    "show_output_panel": true,
-    "log_level": "INFO"
-}
-```
+Find resource definitions
+Find resource references
+Navigate to resources
+Diagnose unresolved resources
+Complete StaticResource
+Complete DynamicResource
+Rename resources
+Extract resources
+Extract styles
 
-## Keyboard shortcuts
+Resource references are understood in the context of the project rather than treated as arbitrary markup.
 
-No Avalonia-specific keyboard shortcuts are imposed by default. Users who want
-keyboard-driven workflows can add their own bindings through Sublime Text's
-normal keymap customization without risking conflicts with existing Sublime
-Text or third-party package shortcuts.
+✨ AXAML Refactoring and Code Actions
 
-## Binding intelligence
+Avalonia IDE includes editing operations specifically designed for AXAML.
 
-The AXAML binding engine uses the project's indexed C# source rather than a
-hard-coded ViewModel list.
+These include:
 
-Given:
+AXAML rename
+Rename resources
+Rename bindings
+Extract resource
+Extract style
+Convert attribute to property element
+AXAML code actions
+AXAML formatting
 
-```xml
-<Window
-    xmlns:vm="using:MyApp.ViewModels"
-    x:DataType="vm:MainWindowViewModel">
+For example, an AXAML attribute can be converted into a property element without manually rewriting the markup.
 
-    <TextBox Text="{Binding Us}" />
-</Window>
-```
+🚨 Diagnostics
 
-completion can resolve properties such as:
+Avalonia IDE provides diagnostics for both C# and AXAML.
 
-```text
-UserName       string
-UserEmail      string
-UserAddress    AddressViewModel
-```
+AXAML diagnostics include:
+Invalid bindings
+Unknown properties
+Unresolved resources
+Binding problems
+Semantic AXAML errors
+C# diagnostics
 
-Nested paths are resolved through the C# property type. For example:
+C# diagnostics are provided through Roslyn/LSP.
 
-```text
-{Binding UserAddress.St
-```
+Diagnostic commands include:
 
-can complete members such as:
+Show Diagnostics
+Next Error
+Previous Error
+Clear Diagnostics
 
-```text
-Street         string
-State          string
-City           string
-ZipCode        string
-```
+The goal is to surface problems directly in the editor instead of requiring a separate IDE window.
 
-Hover follows the same type chain.
+🧠 Roslyn / LSP Integration
 
-`x:DataType` is preferred. If it is absent, the plugin conservatively falls
-back to a conventional `ViewNameViewModel` type when one exists in the current
-project.
+Avalonia IDE works alongside the existing C# language-service ecosystem.
 
-## Architecture
+Roslyn/LSP remains responsible for C# language intelligence, while Avalonia IDE adds the Avalonia-specific semantic layer.
 
-The package keeps responsibilities separated:
+This provides:
 
-- `index.py` — filesystem discovery and classification
-- `semantic_index.py` — AXAML/C# semantic enrichment
-- `resource.py` — resource declarations and references
-- `csharp_semantic.py` — lightweight source-based C# index
-- `solution.py` — solution/project construction
-- `indexer_service.py` — background indexing and cooperative cancellation
-- `workspace_state.py` — versioned workspace persistence
-- `manager.py` — cached runtime sessions and project services
+C# completion
+C# diagnostics
+C# definitions
+References
+Rename
+Inheritance information
+C# language semantics
 
-The worker never accesses the Sublime API. Completed indexing results are
-returned to the main thread before the live session is replaced.
+while Avalonia IDE handles:
 
-## Package contents
+AXAML semantics
+Avalonia properties
+Bindings
+Resources
+AXAML navigation
+Avalonia-specific diagnostics
 
-The package contains:
+This separation allows each system to concentrate on what it does best.
 
-- Sublime Text plugin source
-- AXAML language/syntax support
-- Avalonia metadata
-- AXAML semantic indexing
-- C# source indexing for AXAML intelligence
-- embedded language-server components
-- solution/project tooling
-- workspace persistence
-- background indexing
+📁 Project Explorer
 
-## Version
+Avalonia IDE includes a project-aware Explorer for navigating Avalonia solutions.
 
-Plugin version: **2.2.14**
+It understands:
+
+Solutions
+Projects
+Project relationships
+Source files
+AXAML files
+Code-behind files
+Resources
+
+The IDE can discover projects and solutions and use that information throughout its semantic tooling.
+
+⚙️ .NET Integration
+
+Common .NET development operations are available directly from Sublime Text.
+
+Supported operations include:
+
+Build
+Run
+Restore
+Clean
+Publish
+Test
+Watch
+Stop
+
+This means you can stay inside Sublime Text for the normal edit → build → run → diagnose development cycle.
+
+🏗 Avalonia Scaffolding
+
+Common Avalonia application components can be created directly from Sublime Text.
+
+Scaffolding support includes:
+
+Views
+Windows
+ViewModels
+Resource dictionaries
+
+This makes creating new application components much faster while maintaining the expected Avalonia project structure.
+
+⚡ Workspace Indexing
+
+Avalonia IDE maintains a semantic index of the workspace.
+
+The index supports:
+
+AXAML completion
+C# binding resolution
+Resource lookup
+Navigation
+Project relationships
+Semantic operations
+
+Indexing runs in the background so that larger projects can be processed without unnecessarily blocking the editor.
+
+You can manually rebuild the workspace index when necessary.
+
+🔄 Incremental Indexing
+
+Changing one AXAML file doesn't require rebuilding the entire project.
+
+Avalonia IDE updates the information associated with the changed document and preserves unrelated workspace information.
+
+This makes normal editing significantly faster than repeatedly rebuilding a complete project index.
+
+💾 Workspace Persistence
+
+Workspace information can be persisted between Sublime Text sessions.
+
+The workspace system can remember information such as:
+
+Workspace root
+Solution
+Projects
+Startup project
+File information
+
+This allows Avalonia IDE to restore project context when you return to a project.
+
+Workspace persistence can also be disabled through the package settings.
+
+🖥 Integrated Terminal
+
+Avalonia IDE includes an integrated Terminus-based terminal workflow.
+
+The terminal can be opened beside the editor:
+
+┌───────────────────────────────┬──────────────────┐
+│                               │                  │
+│       Avalonia Editor         │     Terminal     │
+│                               │                  │
+│       C# / AXAML              │   dotnet ...     │
+│                               │                  │
+└───────────────────────────────┴──────────────────┘
+
+Press:
+
+Ctrl+Alt+T
+
+to toggle the terminal.
+
+This gives Sublime Text an IDE-style editor/terminal layout without requiring Origami or another layout package.
+
+⌨️ Avalonia Commands
+
+Avalonia IDE adds a collection of commands to Sublime Text's Command Palette.
+
+These include project, indexing, navigation, diagnostics, resource, refactoring, scaffolding, and .NET development commands.
+
+The package also provides its own keyboard bindings where appropriate.
+
+🧩 Project-Aware Development
+
+Avalonia IDE is designed around the idea that an Avalonia application is more than a collection of files.
+
+It maintains awareness of:
+
+Solution
+   │
+   ├── Project
+   │    ├── C#
+   │    ├── AXAML
+   │    ├── Resources
+   │    └── ViewModels
+   │
+   └── Project
+
+That project awareness is what allows features such as C#-backed binding completion, resource navigation, View/ViewModel navigation, and semantic diagnostics to work together.
+
+🚀 Installation
+Package Control
+
+Once Avalonia IDE is available in the Package Control default channel:
+
+Open the Command Palette.
+Select Package Control: Install Package.
+Search for Avalonia.
+Select Avalonia.
+
+Package Control handles installation and future updates.
+
+GitHub
+
+The project is also available from GitHub:
+
+Avalonia IDE on GitHub
+
+Replace the link above with the actual repository URL in the final README.
+
+Requirements
+Required
+Sublime Text 4
+.NET 8 or newer
+Avalonia 11 or newer
+Recommended
+LSP
+LSP-Roslyn
+
+Development and testing for version 2.2.14 has been performed with Sublime Text 4207 on Linux x64.
+
+What Avalonia IDE Is Not
+
+Avalonia IDE is a code-first development environment.
+
+It does not attempt to reproduce every feature of Visual Studio or JetBrains Rider.
+
+No visual XAML designer
+
+Avalonia IDE does not currently provide a live visual AXAML designer/preview surface.
+
+Instead, it concentrates on the development features that can be integrated naturally into Sublime Text:
+
+editing + semantic understanding + navigation + diagnostics + refactoring + project tooling + .NET tooling
+
+The result is a lightweight alternative for developers who prefer working in Sublime Text.
+
+Why Sublime Text?
+
+Visual Studio, Rider, and VS Code are excellent development environments.
+
+Avalonia IDE exists for developers who prefer Sublime Text.
+
+If you want:
+
+a fast editor
+a minimal interface
+instant startup
+powerful keyboard-driven navigation
+C# intelligence
+Avalonia intelligence
+project awareness
+integrated .NET tooling
+
+without moving to a larger IDE, Avalonia IDE is designed for that workflow.
+
+Version
+
+Avalonia IDE 2.2.14
