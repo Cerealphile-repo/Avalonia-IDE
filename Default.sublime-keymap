@@ -22,5 +22,9 @@
             "ctrl+alt+shift+b"
         ],
         "command": "avalonia_binding_completion"
-    }
+    },
+        {
+        "keys": ["ctrl+alt+t"],
+        "command": "avalonia_terminal"
+    	}
 ]
