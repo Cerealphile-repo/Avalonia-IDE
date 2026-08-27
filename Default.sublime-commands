@@ -134,5 +134,9 @@
     {
         "caption": "Avalonia: Convert Attribute to Property Element",
         "command": "avalonia_convert_property_element"
+    },
+    {
+        "caption": "Avalonia: Terminal",
+        "command": "avalonia_terminal"
     }
 ]

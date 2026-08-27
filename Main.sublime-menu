@@ -45,6 +45,10 @@
                         "command": "avalonia_explorer"
                     },
                     {
+                        "caption": "Terminal",
+                        "command": "avalonia_terminal"
+                    },
+                    {
                         "caption": "-"
                     },
                     {
