@@ -33,7 +33,7 @@
                         "command": "avalonia_cancel_indexing"
                     },
                     {
-                        "caption": "Settings",
+                        "caption": "Package Settings",
                         "command": "avalonia_settings"
                     },
                     {
