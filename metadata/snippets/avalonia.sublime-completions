@@ -2744,12 +2744,6 @@
       "kind": "snippet"
     },
     {
-      "trigger": "TestableTabbedPage",
-      "contents": "<TestableTabbedPage $1>$0</TestableTabbedPage>",
-      "annotation": "Avalonia Control",
-      "kind": "snippet"
-    },
-    {
       "trigger": "TextBlock",
       "contents": "<TextBlock $1>$0</TextBlock>",
       "annotation": "Avalonia Control",
