@@ -333,13 +333,6 @@ Select Avalonia.
 
 Package Control handles installation and future updates.
 
-GitHub
-
-The project is also available from GitHub:
-
-Avalonia IDE on GitHub
-
-Replace the link above with the actual repository URL in the final README.
 
 Requirements
 Required
@@ -386,6 +379,20 @@ project awareness
 integrated .NET tooling
 
 without moving to a larger IDE, Avalonia IDE is designed for that workflow.
+
+To use the builtin Avalonia Language Server go to preferense - Package Settings - LSP - server configurations and insert
+
+{
+    "avalonia": {
+        "enabled": true,
+        "command": [
+            "${packages}/Avalonia/language-server/avalonia-ls"
+        ],
+        "selector": "source.axaml"
+    }
+}
+
+and save. then ctrl+shift+p type LSP and choose troubleshoot server and select avalonia to check for any errors.
 
 A thank you to https://github.com/SaverinOnRails/ls-for-avalonia for the standalone avalonia language server.
 
