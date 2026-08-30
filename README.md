@@ -387,6 +387,8 @@ integrated .NET tooling
 
 without moving to a larger IDE, Avalonia IDE is designed for that workflow.
 
+A thank you to https://github.com/SaverinOnRails/ls-for-avalonia for the standalone avalonia language server.
+
 Version
 
 Avalonia IDE 2.2.14
