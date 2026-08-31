@@ -16,7 +16,7 @@ import traceback
 from .core.log import log
 
 PACKAGE_NAME = "Avalonia"
-VERSION = "2.2.11"
+VERSION = "2.2.15"
 
 
 def _load_modules():

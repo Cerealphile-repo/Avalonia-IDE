@@ -5,7 +5,7 @@ Avalonia IDE 2.2.14 brings a full, project-aware Avalonia development workflow t
 
 This is more than AXAML syntax highlighting. Avalonia IDE understands the relationship between your AXAML, C# code, ViewModels, resources, projects, and solution structure, while integrating with Roslyn/LSP for C# language services.
 
-For Linux this LSP-Roslyn will work the best with this https://github.com/Cerealphile-repo/LSP-Roslyn.
+This LSP-Roslyn will work the best with this https://github.com/Cerealphile-repo/LSP-Roslyn.
 
 The result is a fast, lightweight, code-first Avalonia IDE that lets you build applications without leaving Sublime Text.
 

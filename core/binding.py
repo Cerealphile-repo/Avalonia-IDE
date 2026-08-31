@@ -194,6 +194,7 @@ def resolve_data_type(
     *,
     csharp_index: CSharpSemanticIndex,
     viewmodel_fallback: str | None = None,
+    point: int | None = None,
 ) -> str | None:
     """
     Resolve x:DataType.

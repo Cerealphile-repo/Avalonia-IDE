@@ -6,6 +6,10 @@
                 "caption": "Avalonia",
                 "children": [
                     {
+                        "caption": "New Avalonia Project",
+                        "command": "avalonia_new_project"
+                    },
+                    {
                         "command": "avalonia_build",
                         "caption": "Build"
                     },

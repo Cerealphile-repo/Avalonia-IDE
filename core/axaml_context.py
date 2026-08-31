@@ -33,6 +33,10 @@ class AxamlContext:
     resource_type: str | None = None
     binding_path: str | None = None
     binding_root_type: str | None = None
+    markup_extension: str | None = None
+    binding_parameter: str | None = None
+    directive: str | None = None
+    namespace_prefix: str | None = None
 
 
 def get_axaml_context(

@@ -1,5 +1,9 @@
 [
     {
+        "caption": "Avalonia: New Avalonia Project",
+        "command": "avalonia_new_project"
+    },
+    {
         "caption": "Avalonia: Build",
         "command": "avalonia_build"
     },

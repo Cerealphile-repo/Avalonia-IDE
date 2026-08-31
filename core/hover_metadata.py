@@ -512,3 +512,29 @@ def get_property_values(
         "",
         property_name,
     )
+
+
+def get_type_info(type_name: str) -> dict | None:
+    """Resolve an AXAML object type for hover.
+
+    Control metadata is authoritative for controls. For other Avalonia
+    objects, property metadata still gives us a useful type existence check
+    (for example SolidColorBrush is an owner in the generated property data).
+    """
+    if not type_name:
+        return None
+    control = get_control_info(type_name)
+    if control:
+        result = dict(control)
+        result.setdefault("Kind", "Control")
+        return result
+    target = type_name.casefold()
+    for item in _load_properties():
+        owner = item.get("Owner") or item.get("owner")
+        if isinstance(owner, str) and owner.casefold() == target:
+            return {"Name": type_name, "Kind": "Avalonia Type"}
+    for item in _load_attached_property_records():
+        owner = item.get("Owner") or item.get("owner")
+        if isinstance(owner, str) and owner.casefold() == target:
+            return {"Name": type_name, "Kind": "Avalonia Type"}
+    return None
