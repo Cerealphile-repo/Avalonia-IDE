@@ -7,6 +7,8 @@ This is more than AXAML syntax highlighting. Avalonia IDE understands the relati
 
 This LSP-Roslyn will work the best with this https://github.com/Cerealphile-repo/LSP-Roslyn.
 
+Documentation for the menu is here https://github.com/Cerealphile-repo/Avalonia-IDE/blob/main/docs/Avalonia_IDE_Menu_Guide.pdf
+
 The result is a fast, lightweight, code-first Avalonia IDE that lets you build applications without leaving Sublime Text.
 
 Why Avalonia IDE?
